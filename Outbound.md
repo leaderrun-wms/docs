@@ -2,4 +2,79 @@
 
 接口定义方：慧通关
 
+## 功能描述
 
+* 提供货物和关务数据是否可出仓检查
+* 进行具体出库，启动关务单证流程
+
+## 接口详情
+
+### 检查货物是否可以出库
+
+路径：
+
+```
+    https://FD_HOST/outbound
+```
+
+* 具体FD_HOST的配置在首页的环境栏目中描述
+* 测试环境使用http协议，生产环境使用https加密协议
+
+请求头信息：
+
+```
+Authorization: Access_Key XXXXXXXX
+```
+
+请求方法：POST
+
+内容：
+
+```json
+{
+    "wmsOrderId": "仓库系统出库订单唯一标识",
+    "wmsOrderDate": unixEpochInMillisecond,
+    "omsProcessConfigId": "流程ID",
+    "items": [  // 支持多个货物行一次出库
+        {
+            "id": "清单行唯一ID",
+            "qty": "出库数量"
+        },
+        {
+            "id": "清单行唯一ID",
+            "qty": "出库数量"
+        },
+        {
+            "id": "清单行唯一ID",
+            "qty": "出库数量"
+        }
+    ]
+}
+```
+
+返回内容：
+
+```json
+{
+    "success": true,
+    "message": "若success为false时候的错误信息",
+    "result": {
+        "processId": "OMS的流程ID"
+    }
+}
+```
+
+说明：
+
+* items中的id（输入）：
+    * 此ID在入仓时作为货物行的系统交互的唯一标识
+    * 和在改变包装后新产生的货物行的ID
+* items中的qty（输入）：
+    * 出库数量，按当前货物行的单位为准
+* omsProcessConfigId（输入）：
+    * 由于海运、陆运和空运在单证层面在流程上会稍有不同，这里使用的值也会不同
+    * 具体值的设置，根据出仓需要来配置
+    * 用户在OMS管理具体流程，processConfigId在OMS生成，并建议复制此值到WMS的出仓配置中
+* processId（输出）：
+    * 此接口若成功，则返回流程编号，用来标识这一票订单在OMS内的唯一标识
+  
