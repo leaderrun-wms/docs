@@ -11,7 +11,9 @@
 
 # 整体系统架构
 
-TODO: 欠一张漂亮的架构图
+![架构图](diagrams/Architecture.png)
+[编辑](https://www.draw.io/?title=Architecture.png&url=https%3A%2F%2Fraw.githubusercontent.com%2Fleaderrun-wms%2Fdocs%2Fmaster%2Fdiagrams%2FArchitecture.png%3Ft%3D0)
+
 
 # 对接接口一览
 
