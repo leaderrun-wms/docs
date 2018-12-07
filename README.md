@@ -12,7 +12,7 @@
 # 整体系统架构
 
 ![架构图](diagrams/Architecture.png)
-[编辑](https://www.draw.io/?title=Architecture.png&url=https%3A%2F%2Fraw.githubusercontent.com%2Fleaderrun-wms%2Fdocs%2Fmaster%2Fdiagrams%2FArchitecture.png%3Ft%3D0)
+[编辑](https://www.draw.io/?title=Architecture.png&url=https%3A%2F%2Fgithub.com%2Fleaderrun-wms%2Fdocs%2Fraw%2Fmaster%2Fdiagrams%2FArchitecture.png%3Ft%3D0)
 
 
 # 对接接口一览
