@@ -26,7 +26,7 @@
 | 5    | [库位货品信息](InternalOp.md)            | OWB    | HGXT   | 收货，上架，移位，下架                                                                                     |
 | 6    | [改包装关务信息接口](RepackReq.md)       | OWB    | FD     | 货品包装形态改变，需要重新匹配关务信息                                                                     |
 | 7    | [改包装关务信息反馈接口](RepackResp.md)  | FD     | OWB    |                                                                                                            |
-| 8    | [ASN 信息补录回传](InboundSupp.md)       | OWB    | FD     | 小程序 asn 信息补录(车型，车牌，CBM，司机姓名，司机电话，预计到仓时间)，记录信息传给 CMS；车辆到仓再传一次 |
+| 8    | [ASN 信息补录回传](InboundSupp.md)       | OWB    | ASN    | 小程序 asn 信息补录(车型，车牌，CBM，司机姓名，司机电话，预计到仓时间)，记录信息传给 CMS；车辆到仓再传一次 |
 | 9    | [报关单反馈](CustomsFeedbackPDF.md)      | FD     | OWB    | 根据单号查看报关单（CMS 提供产生的报关单链接）                                                             |
 | 10   | [单证状态接口](CustomsFeedbackStatus.md) | FD     | OWB    | 报关等完成后由 CMS 传递给 OWB                                                                              |
 | 11   | [电子发票接口](ElectronicInvoice.md)     |        |        |                                                                                                            |
