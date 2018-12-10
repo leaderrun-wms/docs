@@ -24,8 +24,10 @@
 {
   "busicode": "年月日时分秒+6位随机数",   
   "warehouseCode": "仓库编号",
-	"ASNcode": "ASN编号",
+  "ASNcode": "ASN编号",
   "customerCode": "客户编号",
+  "calculatedCharge":"金额",
+	"status":"状态",
 	"reserve1":"",
 	"reserve2":"",
 	"reserve3":"",
@@ -41,23 +43,11 @@
 ```
   
 返回内容:
-
 ```json
 {
-  "warehouseCode": "仓库编号",
-  "ASNcode": "ASN编号",
-  "customerCode": "客户编号" ,  
-	"calculatedCharge":"金额",
-	"status":"状态",
-	"extend1": "",
-	"extend2": "",
-	"extend3": "",
-	"extend4": "",
-	"extend5": "",
-	"extend6": "",
-	"extend7": "",
-	"extend8": "",
-	"extend9": "",
-	"extend10": ""
+    "success": true,
+    "message": "若success为false时候的错误信息",
+    "result": {
+        "processId": "busicode"
+    }
 }
-```
