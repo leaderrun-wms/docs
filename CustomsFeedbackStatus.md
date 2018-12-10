@@ -41,7 +41,6 @@
 	"reserve10": ""
 	"customsDetail": [{
 			"id": "清单行唯一ID",
-			"url": "报关单链接",
 			"status":"状态",
 			"extend1": "",
 	        "extend2": "",
@@ -56,7 +55,6 @@
 		},
 		{
 			"id": "清单行唯一ID",
-			"url": "报关单链接",
 			"status":"状态",
 			"extend1": "",
 			"extend2": "",
@@ -71,7 +69,6 @@
 		},
 		{
 			"id": "清单行唯一ID",
-			"url": "报关单链接",
 			"status":"状态",
 			"extend1": "",
 			"extend2": "",
