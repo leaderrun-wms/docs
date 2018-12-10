@@ -18,7 +18,7 @@
   
 ## 参数说明
   
-  Data：对外系统post给云仓系统的JSON格式报文 
+  Data：对外系统post给OWB系统的JSON格式报文 
   
   内容：
    ```json
