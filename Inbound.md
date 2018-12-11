@@ -12,7 +12,7 @@
   
 ## 接口地址  
   
-  * 测试地址：http://localhost:8085/leaderrun_edi/servlet/leaderrunServiceToCMS/InbaseOderInfo
+  * 测试地址：http://VTRADEX_HOST/leaderrun_edi/servlet/leaderrunServiceToCMS/InbaseOderInfo
   * 请求方法：POST
   * 请求头部：application/json
   
@@ -26,7 +26,8 @@
 	"busicode": "年月日时分秒+6位随机数",
 	"warehouseCode": "仓库编号",
 	"aSNCode": "ASN单号",
-	"customerCode": "客户编号",
+	"customerCode": "订单客户编号",
+	"paymentCode": "付款方编号",
 	"consignorConsigneeCode": "Crm工厂",
 	"volume": "体积",
 	"weight": "毛重",
