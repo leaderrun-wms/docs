@@ -32,6 +32,7 @@
 	"volume": "体积",
 	"weight": "毛重",
 	"arriveDate": "预计到仓时间",
+	"status":"状态",
 	"reserve1": "",
 	"reserve2": "",
 	"reserve3": "",
@@ -116,3 +117,7 @@
     
 }
 ```
+
+备注:CMS创建ASN时推送信息到OWB系统，状态为new
+    CMS放行ASN时推送信息到OWB系统，状态为update
+
