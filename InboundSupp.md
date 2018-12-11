@@ -20,11 +20,12 @@
 路径：
 
 ```
-    https://ASN_HOST/api/asn/properties
+    https://ASN_HOST/api/asn/<ASNID>/properties
 ```
 
 * 具体ASN_HOST的配置在首页的环境栏目中描述
 * 测试环境使用http协议，生产环境使用https加密协议
+* ASNID：ASN单号在URL路径名称中
 
 请求头信息：
 
@@ -32,13 +33,12 @@
 Authorization: Access_Key XXXXXXXX
 ```
 
-请求方法：POST
+请求方法：PUT
 
 内容：
 
 ```json
 {
-    "asnId": "由ASN系统的ASN号",
     "properties": [
         {
             "key": "TRUCK_TYPE",
