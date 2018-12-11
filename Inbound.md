@@ -43,9 +43,9 @@
 	"reserve10": "",
 	"oderDetail": [{
 			"id": "清单行唯一ID",
-			"SO": "SO",
-			"PO": "PO",
-			"ITEM": "ITEM",
+			"so": "SO",
+			"po": "PO",
+			"item": "ITEM",
 			"unti": "包装单位",
 			"panelQty": "板数",
 			"boxQty": "箱数",
@@ -73,9 +73,9 @@
 		},
 		{
 			"id": "清单行唯一ID",
-			"SO": "SO",
-			"PO": "PO",
-			"ITEM": "ITEM",
+			"so": "SO",
+			"po": "PO",
+			"item": "ITEM",
 			"unti": "包装单位",
 			"panelQty": "板数",
 			"boxQty": "箱数",
@@ -111,8 +111,7 @@
 {
     "success": true,
     "message": "若success为false时候的错误信息",
-    "result": {
-        "processId": "busicode"
-    }
+    "result":"busicode"
+    
 }
 ```
