@@ -12,7 +12,7 @@
 
 ## 接口地址  
   
-  * 测试地址:http://localhost:8085/leaderrun_edi/servlet/leaderrunServiceToCMS/cashChargeInfoStatus
+  * 测试地址:http://VTRADEX_HOST/leaderrun_edi/servlet/leaderrunServiceToCMS/cashChargeInfoStatus
   * 请求方法:POST
   * 请求头部:application/json
   
