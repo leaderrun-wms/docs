@@ -26,11 +26,11 @@
   "warehouseCode": "仓库编号",
   "ASNcode": "ASN编号",
   "customerCode": "客户编号"
-  "reserve1":"",
+  "reserve1": "",
   "reserve2":"",
-   "reserve3":"",
-   "reserve4":"",
-   "reserve5":""
+  "reserve3":"",
+  "reserve4":"",
+  "reserve5":""
 	
 }
 ```
@@ -60,5 +60,6 @@
 			"extend4": "",
 			"extend5": ""
 		}]
+}
 ```
   
