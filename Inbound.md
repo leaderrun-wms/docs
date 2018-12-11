@@ -118,6 +118,6 @@
 }
 ```
 
-备注:CMS创建ASN时推送信息到OWB系统，状态为new
-    CMS放行ASN时推送信息到OWB系统，状态为update
+备注:* CMS创建ASN时推送信息到OWB系统，状态为new
+     * CMS放行ASN时推送信息到OWB系统，状态为update
 
