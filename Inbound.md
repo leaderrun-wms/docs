@@ -12,9 +12,10 @@
   
 ## 接口地址  
   
-  * 测试地址：http://VTRADEX_HOST/leaderrun_edi/servlet/leaderrunServiceToCMS/InbaseOderInfo
+  * 测试地址：http://VTRADEX_HOST/leaderrun_edi/servlet/leaderrunServiceToCMS/InbaseOderInfo  
   * 请求方法：POST
   * 请求头部：application/json
+  * 头部Token:21596b33a4875896
   
 ## 参数说明
   
@@ -29,20 +30,14 @@
 	"customerCode": "订单客户编号",
 	"paymentCode": "付款方编号",
 	"consignorConsigneeCode": "Crm工厂",
+	"consignorConsigneeName": "Crm工厂名称",
+	"consignorConsigneeEmail": "Crm工厂",
 	"volume": "体积",
 	"weight": "毛重",
 	"arriveDate": "预计到仓时间",
 	"status":"状态",
 	"reserve1": "",
 	"reserve2": "",
-	"reserve3": "",
-	"reserve4": "",
-	"reserve5": "",
-	"reserve6": "",
-	"reserve7": "",
-	"reserve8": "",
-	"reserve9": "",
-	"reserve10": "",
 	"oderDetail": [{
 			"id": "清单行唯一ID",
 			"so": "SO",
@@ -66,12 +61,7 @@
 			"extend2": "",
 			"extend3": "",
 			"extend4": "",
-			"extend5": "",
-			"extend6": "",
-			"extend7": "",
-			"extend8": "",
-			"extend9": "",
-			"extend10": ""
+			"extend5": ""
 		},
 		{
 			"id": "清单行唯一ID",
@@ -87,8 +77,8 @@
 			"high": "高",
 			"volume": "体积",
 			"weight": "重量",
-			"sizeChildPO":"",
 			"sizeChildPO":"scp/bno/gno",
+			"scpBnoGno":"",
 			"territoryCode":"",
 			"supplierPack":"",
 			"supplierItemColor":"",
@@ -96,12 +86,7 @@
 			"extend2": "",
 			"extend3": "",
 			"extend4": "",
-			"extend5": "",
-			"extend6": "",
-			"extend7": "",
-			"extend8": "",
-			"extend9": "",
-			"extend10": ""
+			"extend5": ""
 		}
 	]
 }
@@ -120,5 +105,6 @@
 备注:
  * CMS创建ASN时推送信息到OWB系统，状态为new
  * CMS放行ASN时推送信息到OWB系统，状态为update
+ * CMS放行ASN时推送信息到OWB系统，状态为delete
  
 
