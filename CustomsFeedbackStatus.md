@@ -15,6 +15,7 @@
   * 测试地址：http://localhost:8085/leaderrun_edi/servlet/leaderrunServiceToCMS/customsDeclarationStatus
   * 请求方法：POST
   * 请求头部：application/json
+  * 请求Token：21596b33a4875896
   
  
 ## 参数说明
@@ -27,59 +28,18 @@
 	"busicode": "年月日时分秒+6位随机数",
 	"warehouseCode": "仓库编号",
 	"ASNCode": "ASN单号",
-	"customerCode": "客户编号",
-	"consignorConsigneeCode": "Crm工厂",
-	"reserve1": "",
-	"reserve2": "",
-	"reserve3": "",
-	"reserve4": "",
-	"reserve5": "",
-	"reserve6": "",
-	"reserve7": "",
-	"reserve8": "",
-	"reserve9": "",
-	"reserve10": ""
+	"customerCode": "客户编号"
 	"customsDetail": [{
 			"id": "清单行唯一ID",
-			"status":"状态",
-			"extend1": "",
-	        "extend2": "",
-			"extend3": "",
-			"extend4": "",
-			"extend5": "",
-			"extend6": "",
-			"extend7": "",
-			"extend8": "",
-			"extend9": "",
-			"extend10": ""
+			"status":"状态"
 		},
 		{
 			"id": "清单行唯一ID",
-			"status":"状态",
-			"extend1": "",
-			"extend2": "",
-			"extend3": "",
-			"extend4": "",
-			"extend5": "",
-			"extend6": "",
-			"extend7": "",
-			"extend8": "",
-			"extend9": "",
-			"extend10": ""
+			"status":"状态"
 		},
 		{
 			"id": "清单行唯一ID",
-			"status":"状态",
-			"extend1": "",
-			"extend2": "",
-			"extend3": "",
-			"extend4": "",
-			"extend5": "",
-			"extend6": "",
-			"extend7": "",
-			"extend8": "",
-			"extend9": "",
-			"extend10": ""
+			"status":"状态"
 		}
 	]
 }
@@ -91,8 +51,6 @@
 {
     "success": true,
     "message": "若success为false时候的错误信息",
-    "result": {
-        "processId": "busicode"
-    }
+    "result":  "busicode"
 }
 ```
