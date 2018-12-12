@@ -30,6 +30,8 @@
 | 9    | [报关单反馈](CustomsFeedbackPDF.md)      | FD     | OWB    | 根据单号查看报关单（CMS 提供产生的报关单链接）                                                             |
 | 10   | [单证状态接口](CustomsFeedbackStatus.md) | FD     | OWB    | 报关等完成后由 CMS 传递给 OWB                                                                              |
 | 11   | [电子发票接口](ElectronicInvoice.md)     |        |        |                                                                                                            |
+| 12   | [仓库信息接口](Warehouse.md)   |         |  FD    | OWB    |
+| 13   | [客户信息接口](Customer.md)    |         |  FD    | OWB    |
 
 # 环境
 
