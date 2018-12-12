@@ -35,9 +35,13 @@
 {
     "success": true,
     "message": "若success为false时候的错误信息",
-    "result": {
-        "warehouseName": "仓库名称"
+    "warehouseDetail": [{
+        "warehouseName": "仓库名称",
         "warehouseCode": "仓库编码"
-    }
+    },
+    {
+        "warehouseName": "仓库名称",
+        "warehouseCode": "仓库编码"
+    }]
 }
 ```
