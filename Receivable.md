@@ -46,19 +46,17 @@
 			"id": "清单行唯一ID",
 			"type":"费用项",
 			"qty": "金额",
-	                "extend2": "",
-			"extend3": "",
-			"extend4": "",
-			"extend5": ""
+	                "extend1": "",
+			"extend2": "",
+			"extend3": ""
 		},
 		{
 			"id": "清单行唯一ID",
 			"type":"费用项",
 			"qty": "金额",
-	                "extend2": "",
-			"extend3": "",
-			"extend4": "",
-			"extend5": ""
+	                "extend1": "",
+			"extend2": "",
+			"extend3": ""
 		}]
 }
 ```
