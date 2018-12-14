@@ -25,15 +25,22 @@
 {
   "busicode":"busicode",
   "asnCode": "ASN编号",
+  "customerCode":"客户编号"
   "billingDetail": [{
 			"id": "清单行唯一ID",
 			"type":"费用项",
-			"qty": "金额"
+			"qty": "金额",
+			"reserve1": "",
+			"reserve2": "",
+			"reserve3": ""
 		},
 		{
 			"id": "清单行唯一ID",
 			"type":"费用项",
-			"qty": "金额"
+			"qty": "金额",
+			"reserve1": "",
+			"reserve2": "",
+			"reserve3": ""
 		}]
 }
 ```
