@@ -12,7 +12,7 @@
   
 ## 接口地址  
   
-  * 测试地址：http://VTRADEX_HOST/leaderrun_edi/servlet/leaderrunServiceToCMS/WarehouseNameInfo
+  * 测试地址：http://VTRADEX_HOST/leaderrun_edi/servlet/leaderrunServiceToCMS/findWarehouse
   * 请求方法：POST
   * 请求头部：application/json
   * 请求Token：21596b33a4875896
