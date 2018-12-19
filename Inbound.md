@@ -91,7 +91,7 @@
 	],
 	"customsDeclaration": [{//报关单
 	      "code":"报关单号",
-	      "type":"报关||清关||转关"
+	      "type":"清关||转关"
 	      "customsDeclarationDetail": [{
 	          "id":"报关单ID",
 		  "lines":"行数"
