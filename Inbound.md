@@ -94,11 +94,13 @@
 	      "type":"清关||转关"
 	      "customsDeclarationDetail": [{
 	          "id":"报关单ID",
-		  "lines":"行数"
+		  "lines":"行数",
+		  "name":"品名"
 	      },
 	      {
 	          "id":"报关单ID",
-		  "lines":"行数"
+		  "lines":"行数",
+		   "name":"品名"
 	      }
 	     }]
 	}]
