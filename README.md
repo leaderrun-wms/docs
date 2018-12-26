@@ -38,6 +38,6 @@
 ## 开发环境
 
 * OWB: TODO
-* FD: TODO
+* FD: lhfdbe-test.yunbaoguan.cn:81
 
 ## 生产环境
