@@ -119,7 +119,7 @@
 ```
 备注:
  * CMS创建ASN时推送信息到OWB系统，状态为new
- * CMS放行ASN时推送信息到OWB系统，状态为update
- * CMS放行ASN时推送信息到OWB系统，状态为delete
+ * CMS修改ASN时推送信息到OWB系统，状态为update
+ * CMS删除ASN时推送信息到OWB系统，状态为delete
  
 
