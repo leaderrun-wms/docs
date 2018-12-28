@@ -27,8 +27,8 @@
    ```json
 {
 	"busicode": "年月日时分秒+6位随机数",
-	"warehouseName": "仓库名称",
-  "asnCode": "asnCode"
+	"warehouseCode": "仓库编号",
+        "asnCode": "asnCode"
 }
 ```
       	 
