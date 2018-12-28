@@ -32,6 +32,7 @@
 | 11   | [电子发票接口](ElectronicInvoice.md)     |        |        |                                                                                                            |
 | 12   | [仓库信息接口](Warehouse.md)   |         |  FD    | OWB    |
 | 13   | [客户信息接口](Customer.md)    |         |  FD    | OWB    |
+| 13   | [订单放行接口](InbaseOderRelease.md)|    |  FD    | OWB    |
 
 # 环境
 
