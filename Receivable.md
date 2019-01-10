@@ -12,7 +12,7 @@
 
 ## 接口地址  
   
-  * 测试地址：http://VTRADEX_HOST/leaderrun_edi/servlet/leaderrunServiceToCMS/cashChargeInfo
+  * 测试地址：http://14.29.237.141:9090/leaderrun_edi/servlet/leaderrunServiceToCMS/cashChargeInfo
   * 请求方法：POST
   * 请求头部：application/json
   
