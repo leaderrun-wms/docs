@@ -8,11 +8,11 @@
 
 ## 功能描述
 
-  对外系统接口调用OWB系统接口采用基于HTTP调用方式,报文采用 JSON格式
+  对外系统接口调用OWB系统接口采用基于HTTPS调用方式,报文采用 JSON格式
   
 ## 接口地址  
   
-  * 测试地址：http://14.29.237.141:9090/leaderrun_edi/servlet/leaderrunServiceToCMS/findBaseCustomer
+  * 测试地址：https://14.29.237.141:9090/leaderrun_edi/servlet/leaderrunServiceToCMS/findBaseCustomer
   * 请求方法：POST
   * 请求头部：application/json
   * 请求Token：21596b33a4875896
