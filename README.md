@@ -24,8 +24,8 @@
 | 3    | [现金收费](Receivable.md)                | OWB    | FD     |  ok    |      | 创建订单的时候进行计费，提供接口给 CMS 查询，未收的费用项目及金额                                                                         |
 | 4    | [现金收费反馈](Payment.md)               | FD     | OWB    |   ok   |      | 实际收费情况反馈，根据费用项目收费时的交易号判断是更新还是新增                                                                            |
 | 5    | [库位货品信息](InternalOp.md)            | OWB    | HGXT   |      |      | 收货，上架，移位，下架                                                                                                                    |
-| 6    | [改包装关务信息接口](RepackReq.md)       | OWB    | FD     |      |      | 货品包装形态改变，需要重新匹配关务信息                                                                                                    |
-| 7    | [改包装关务信息反馈接口](RepackResp.md)  | FD     | OWB    |      |      |                                                                                                                                           |
+| 6    | [改包装关务信息接口](RepackReq.md)       | OWB    | FD     | RFI  |      | 货品包装形态改变，需要重新匹配关务信息                                                                                                    |
+| 7    | [改包装关务信息反馈接口](RepackResp.md)  | FD     | OWB    | RFI  |      |                                                                                                                                           |
 | 8    | [ASN 信息补录回传](InboundSupp.md)       | OWB    | ASN    | OK   |      | 小程序 asn 信息补录(车型，车牌，CBM，司机姓名，司机电话，预计到仓时间)，记录信息传给 CMS；车辆到仓再传一次                                |
 | 9    | [报关单反馈](CustomsFeedbackPDF.md)      | FD     | OWB    |   ok   |      | 根据单号查看报关单（CMS 提供产生的报关单链接）                                                                                            |
 | 10   | [单证状态接口](CustomsFeedbackStatus.md) | FD     | OWB    |   ok   |      | 报关等完成后由 CMS 传递给 OWB                                                                                                             |
