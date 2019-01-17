@@ -26,7 +26,7 @@
 {
 	"busicode": "年月日时分秒+6位随机数",
 	"warehouseCode": "仓库编号",
-	"aSNCode": "ASN单号",
+	"workCode": "工单号",
 	"customerCode": "订单客户编号",
 	"paymentCode": "付款方编号",
 	"consignorConsigneeCode": "Crm工厂",
