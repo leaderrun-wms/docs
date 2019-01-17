@@ -35,6 +35,24 @@ Authorization: Access_Key XXXXXXXX
     "wmsOrderId": "仓库系统出库订单唯一标识",
     "wmsOrderDate": unixEpochInMillisecond,
     "omsProcessConfigId": "流程ID",
+    "properties": [
+        {
+            "key": "DESTINATION_COUNTRY",
+            "value": "CNY"  // 目的国 ISO三位编码
+        },
+        {
+            "key": "LOCAL_PORT", // 指运港 编码
+            "value": "CHN000"
+        },
+        {
+            "key": "VOYAGE_NO",
+            "value": "XXX"  // 船名航次
+        },
+        {
+            "key": "CONTAINER_NO",
+            "value": "XXX"  // 柜号
+        }
+    ],
     "items": [  // 支持多个货物行一次出库
         {
             "id": "清单行唯一ID",
