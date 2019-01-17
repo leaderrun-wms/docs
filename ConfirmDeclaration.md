@@ -32,8 +32,7 @@ Authorization: Access_Key XXXXXXXX
 
 ```json
 {
-    "processId": "启动出仓流程返回的ID",
-    "wmsOrderId": "仓库系统出库订单唯一标识"
+    "processId": "启动出仓流程返回的ID"
 }
 ```
 
