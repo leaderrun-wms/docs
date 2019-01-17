@@ -28,7 +28,8 @@
 {
 	"busicode": "年月日时分秒+6位随机数",
 	"warehouseCode": "仓库编号",
-        "asnCode": "asnCode"
+        "workCode": "工单号",
+	"releaseStatus":"人工放行 || 自动放行"
 }
 ```
       	 
