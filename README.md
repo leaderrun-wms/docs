@@ -34,7 +34,7 @@
 | 13   | [客户信息接口](Customer.md)              | FD     | OWB    |   ok   |      |                                                                                                                                           |
 | 14   | [订单放行接口](InbaseOderRelease.md)     | FD     | OWB    |   ok   |      |                                                                                                                                           |
 | 15   | [出库订单确认申报接口](ConfirmDeclaration.md)     | OWB  | FD    |      |      |  运抵确认出库报关单可申报|
-| 2    | [修改出库关务接口](UpdateOutbound.md)              | OWB    | FD     |   |      | 主动推送查询给CMS，CMS实时反馈结果；订单审核发送时，如果反馈结果不成功，WMS可以往下执行；发运之前再次请求，如果反馈结果为不成功，不能发运 |
+| 16   | [修改出库关务接口](UpdateOutbound.md)              | OWB    | FD     |   |      | 主动推送查询给CMS，CMS实时反馈结果；订单审核发送时，如果反馈结果不成功，WMS可以往下执行；发运之前再次请求，如果反馈结果为不成功，不能发运 |
 
 # 环境
 
