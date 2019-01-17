@@ -33,7 +33,7 @@
 | 12   | [仓库信息接口](Warehouse.md)             | FD     | OWB    |   ok   |      |                                                                                                                                           |
 | 13   | [客户信息接口](Customer.md)              | FD     | OWB    |   ok   |      |                                                                                                                                           |
 | 14   | [订单放行接口](InbaseOderRelease.md)     | FD     | OWB    |   ok   |      |                                                                                                                                           |
-| 15   | [出库订单确认申报接口](ConfirmDeclaration.md)     | OWB  | FD    |   ok   |      |  运抵确认出库报关单可申报|
+| 15   | [出库订单确认申报接口](ConfirmDeclaration.md)     | OWB  | FD    |      |      |  运抵确认出库报关单可申报|
 
 # 环境
 
