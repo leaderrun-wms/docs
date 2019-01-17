@@ -92,5 +92,5 @@ Authorization: Access_Key XXXXXXXX
 * items中的qty（输入）：
     * 出库数量，按当前货物行的单位为准
 * processId（输入）：
-    * 此接口若成功，则返回流程编号，用来标识这一票订单在OMS内的唯一标识
+    * 创建时候返回的 出库流程ID
   
