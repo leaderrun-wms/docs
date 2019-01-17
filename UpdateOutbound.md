@@ -14,7 +14,7 @@
 路径：
 
 ```
-    https://FD_HOST/outbound
+    https://FD_HOST/outbound/{processId}
 ```
 
 * 具体FD_HOST的配置在首页的环境栏目中描述
@@ -34,7 +34,6 @@ Authorization: Access_Key XXXXXXXX
 {
     "wmsOrderId": "仓库系统出库订单唯一标识",
     "wmsOrderDate": unixEpochInMillisecond,
-    "processId": "流程ID",
     "properties": [
         {
             "key": "DESTINATION_COUNTRY",
