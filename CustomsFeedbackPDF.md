@@ -27,7 +27,7 @@
 {
 	"busicode": "年月日时分秒+6位随机数",
 	"warehouseCode": "仓库编号",
-	"asnCode": "ASN单号",
+	"workCode": "工单号",
 	"status": "状态(入库||出库)"
 	"customsDetail": [{
 			"id": "清单行唯一ID",
