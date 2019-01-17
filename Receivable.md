@@ -24,7 +24,7 @@
 {
   "busicode": "年月日时分秒+6位随机数",   
   "warehouseCode": "仓库编号",
-  "asnCode": "ASN编号",
+  "workCode": "工单号",
   "customerCode": "客户编号"
   "reserve1": "",
   "reserve2":"",
@@ -40,7 +40,7 @@
 ```json
 {
   "busicode":"busicode",
-  "asnCode": "ASN编号",
+  "workCode": "工单号",
   "customerCode": "客户编号" ,  
   "billingDetail": [{
 			"id": "清单行唯一ID",
