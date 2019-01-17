@@ -24,7 +24,7 @@
   ```json
 {
   "busicode":"busicode",
-  "asnCode": "ASN编号",
+  "workCode": "工单号",
   "customerCode":"客户编号"
   "billingDetail": [{
 			"id": "清单行唯一ID",
