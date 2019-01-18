@@ -39,6 +39,18 @@ Authorization: Access_Key XXXXXXXX
             "key": "DESTINATION_COUNTRY",
             "value": "CHN"  // 目的国 ISO三位编码
         },
+	{
+            "key": "DECLARATION_PORT", // 出境关别 编码
+            "value": "5316"
+        },
+        {
+            "key": "LEAVE_PORT", // 离境口岸 编码
+            "value": "470601"
+        },
+        {
+            "key": "SHIPMENT_METHOD", // 运输方式 编码
+            "value": "2"
+        },    
         {
             "key": "LOCAL_PORT", // 指运港 编码
             "value": "CHN000"
