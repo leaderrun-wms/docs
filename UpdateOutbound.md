@@ -105,3 +105,47 @@ Authorization: Access_Key XXXXXXXX
 * processId（输入）：
     * 创建时候返回的 出库流程ID
   
+样本：
+
+```json
+{
+	"wmsOrderId": "OWB00001",
+	"wmsOrderDate": 1547716905032,
+	"omsProcessConfigId": "96c7e228-bbd4-4cf2-9ba3-30430ee6957d",
+	"properties": [{
+		"key": "DESTINATION_COUNTRY",
+		"value": "CNY"
+	},
+	{
+		"key": "LOCAL_PORT",
+		"value": "CHN000"
+	},
+	{
+		"key": "VOYAGE_NO",
+		"value": "S034003"
+	},
+	{
+		"key": "CONTAINERS",
+		"value": [{
+			"seq": "1",
+			"type": "HQ|GP",
+			"spec": "20|40|45|53",
+			"number": "柜号1"
+		},
+		{
+			"seq": "2",
+			"type": "HQ|GP",
+			"spec": "20|40|45|53",
+			"number": "柜号2"
+		}]
+	}],
+	"items": [{
+		"id": "96c7e228-bbd4-4ce3-9ba3-30430eeee7d",
+		"qty": "100"
+	},
+	{
+		"id": "96c7e228-bbd4-4cf2-9ba3-304eeer33eer",
+		"qty": "10"
+	}]
+}
+```
