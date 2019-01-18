@@ -112,7 +112,7 @@ Authorization: Access_Key XXXXXXXX
 	"omsProcessConfigId": "96c7e228-bbd4-4cf2-9ba3-30430ee6957d",
 	"properties": [{
 		"key": "DESTINATION_COUNTRY",
-		"value": "CNY"
+		"value": "CHN"
 	},
 	{
 		"key": "LOCAL_PORT",
