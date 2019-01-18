@@ -37,7 +37,7 @@ Authorization: Access_Key XXXXXXXX
     "properties": [
         {
             "key": "DESTINATION_COUNTRY",
-            "value": "CNY"  // 目的国 ISO三位编码
+            "value": "CHN"  // 目的国 ISO三位编码
         },
         {
             "key": "LOCAL_PORT", // 指运港 编码
