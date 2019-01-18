@@ -50,14 +50,12 @@ Authorization: Access_Key XXXXXXXX
         {
             "key": "CONTAINERS",//柜信息
             "value": "value": 
-            [{
-                "seq": "1",
+            [{               
                 "type": "HQ|GP",
                 "spec": "20|40|45|53",
                 "number": "柜号1"
             },
-            {
-                "seq": "2",
+            {               
                 "type": "HQ|GP",
                 "spec": "20|40|45|53",
                 "number": "柜号2"
