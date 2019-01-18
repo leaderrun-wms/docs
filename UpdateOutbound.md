@@ -48,9 +48,21 @@ Authorization: Access_Key XXXXXXXX
             "value": "XXX"  // 船名航次
         },
         {
-            "key": "CONTAINER_NO",
-            "value": "XXX"  // 柜号
-        }
+            "key": "CONTAINERS",//柜信息
+            "value": "value": 
+            [{
+                "seq": "1",
+                "type": "HQ|GP",
+                "spec": "20|40|45|53",
+                "number": "柜号1"
+            },
+            {
+                "seq": "2",
+                "type": "HQ|GP",
+                "spec": "20|40|45|53",
+                "number": "柜号2"
+            }]
+         }
     ],
     "items": [  // 支持多个货物行一次出库
         {
