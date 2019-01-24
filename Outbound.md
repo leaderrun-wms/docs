@@ -8,7 +8,7 @@
 * 进行具体出库，启动关务单证流程
 
 ## 出库流程  
-* 测试环境海运出库流程(processConfigId 1a8e5874-f90e-435e-8c9d-1ec218ebbbe7)
+* 测试环境海运出库流程(processConfigId 96c7e228-bbd4-4cf2-9ba3-30430ee6957d)
 
 ## 接口详情
 
