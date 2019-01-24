@@ -32,7 +32,8 @@ Authorization: Access_Key XXXXXXXX
 
 ```json
 {
-    "processId": "启动出仓流程返回的ID"
+    "processId": "启动出仓流程返回的ID",
+    "portArrivalCertificateUrl":"http://www.dxx.der.com/dfdf.png" //还柜纸 （可选）
 }
 ```
 
