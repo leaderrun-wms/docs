@@ -96,7 +96,10 @@ Authorization: Access_Key XXXXXXXX
 ```json
 {
     "success": true,
-    "message": "若success为false时候的错误信息"
+    "message": "若success为false时候的错误信息",
+    "result": {
+        "decAttchmentUrls":["http://pdf.xxx.com/PR0001-1-2.pdf","http://pdf.xxx.com/PR0001-2-2.pdf"]
+    }
 }
 ```
 
