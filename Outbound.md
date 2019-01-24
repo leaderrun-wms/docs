@@ -105,7 +105,8 @@ Authorization: Access_Key XXXXXXXX
     "success": true,
     "message": "若success为false时候的错误信息",
     "result": {
-        "processId": "OMS的流程ID"
+        "processId": "OMS的流程ID",
+        "decAttchments":[{"url":"http://pdf.xxx.com/PR0001-1-2.pdf"},{"url":"http://pdf.xxx.com/PR0001-2-2.pdf"}]
     }
 }
 ```
