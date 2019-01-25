@@ -14,7 +14,7 @@
 路径：
 
 ```
-    https://FD_HOST/outbound/declaration/confirmation
+    https://FD_HOST/outbound/port-arrival-certificate
 ```
 
 * 具体FD_HOST的配置在首页的环境栏目中描述
