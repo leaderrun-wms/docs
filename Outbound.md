@@ -104,6 +104,12 @@ Authorization: Access_Key XXXXXXXX
 {
     "success": true,
     "message": "若success为false时候的错误信息",
+    "messageDetails": {
+        "global": ["全局错误信息1", "全局错误信息2"],
+        "items": [ 
+            { "id": "清单行唯一ID", "message": "该清单行错误信息" }
+        ]
+    },
     "result": {
         "processId": "OMS的流程ID",
         "decAttchmentUrls":["http://pdf.xxx.com/PR0001-1-2.pdf","http://pdf.xxx.com/PR0001-2-2.pdf"]

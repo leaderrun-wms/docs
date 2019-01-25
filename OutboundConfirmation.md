@@ -36,7 +36,13 @@ Authorization: Access_Key XXXXXXXX
 ```json
 {
     "success": true,
-    "message": "若success为false时候的错误信息"
+    "message": "若success为false时候的错误信息",
+    "messageDetails": {
+        "global": ["全局错误信息1", "全局错误信息2"],
+        "items": [ 
+            { "id": "清单行唯一ID", "message": "该清单行错误信息" }
+        ]
+    }    
 }
 ```
 
