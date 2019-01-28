@@ -1,6 +1,17 @@
-地址:http://14.29.237.141:8090/leaderrun_edi/servlet/leaderrunServiceToCMS/queryBaseVehicleType
+# 车型接口
+
+接口定义方：唯智
+
+
+路径：
+
+```
+    http://14.29.237.141:8090/leaderrun_edi/servlet/leaderrunServiceToCMS/queryBaseVehicleType
+```
+
 内容：
-{
+
+```{
 	"code":["CC001","CC002"]   //必填
 }
 
@@ -31,3 +42,4 @@
         }
     ]
 }
+```
