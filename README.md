@@ -37,7 +37,7 @@
 | 16   | [修改出库关务接口](UpdateOutbound.md)         | OWB    | FD     |      |      | 主动推送查询给CMS，CMS实时反馈结果；订单审核发送时，如果反馈结果不成功，WMS可以往下执行；发运之前再次请求，如果反馈结果为不成功，不能发运 |
 | 17   | [货物已出仓](OutboundConfirmation.md)         | OWB    | FD     |      |      | FIXME 货已离开仓库                                                                                                                        |
 | 18   | [出仓检查验证](OutboundCheck.md)              | OWB    | FD     | OK   |      |                                                  
-| 19   | [车型查询接口](Vehicletype.md)                   | OWB    | FD     | OK   |      | 
+| 19   | [车型查询接口](Vehicletype.md)                   | FD    | OWB    | OK   |      | 
 
 # 环境
 
