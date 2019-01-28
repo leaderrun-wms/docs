@@ -15,7 +15,7 @@
 	"code":["CC001","CC002"]   //必填
 }
 
-
+返回类容
 {
     "contactNumber": "",
     "success": "true",//失败为false
