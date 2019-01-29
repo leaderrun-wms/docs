@@ -38,8 +38,8 @@
 	"status":"状态",
 	"TRUCK_TYPE":"车型",
 	"DRIVER_NAME":"司机姓名",
-	"LICENSE_PLATE_NO"："车牌号",
-	"CBM"："CBM数量",
+	"LICENSE_PLATE_NO":"车牌号",
+	"CBM":"CBM数量",
 	"reserve1": "",
 	"reserve2": "",
 	"oderDetail": [{
