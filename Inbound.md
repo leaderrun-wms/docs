@@ -36,6 +36,8 @@
 	"weight": "毛重",
 	"arriveDate": "预计到仓时间",
 	"status":"状态",
+	"Vehicletype":"车型",
+	
 	"reserve1": "",
 	"reserve2": "",
 	"oderDetail": [{
