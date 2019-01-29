@@ -126,5 +126,6 @@
  * CMS修改ASN时推送信息到OWB系统，状态为update
  * CMS删除ASN时推送信息到OWB系统，状态为delete
  * 时间格式 yyyy-MM-dd HH:mm:ss
+ * 车型，CMB数量，司机姓名，车牌号新建传入可以非必填
  
 
