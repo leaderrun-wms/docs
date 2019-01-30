@@ -36,12 +36,18 @@
 	"weight": "毛重",
 	"arriveDate": "预计到仓时间",
 	"status":"状态",
-	"truck_type":"车型",
 	"driver_name":"司机姓名",
-	"license_plate_no":"车牌号",
-	"cbm":"CBM数量",
 	"reserve1": "",
 	"reserve2": "",
+	"carDetail":[{
+			"license_plate_no":"车牌号",
+			"truck_type":"车型"
+		},
+		{	
+			"license_plate_no":"车牌号",
+			"truck_type":"车型"	
+		}
+	],	
 	"oderDetail": [{
 			"id": "清单行唯一ID",
 			"so": "SO",
