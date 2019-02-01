@@ -41,6 +41,10 @@ Authorization: Access_Key XXXXXXXX
 {
     "properties": [
         {
+            "key": "WAYBILL_NO",
+            "value": "运单号 W000001"
+        },
+        {
             "key": "TRUCK_TYPE",
             "value": "10吨车"
         },
