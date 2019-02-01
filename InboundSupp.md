@@ -93,3 +93,4 @@ Authorization: Access_Key XXXXXXXX
 | DRIVER_MOBILE    | 司机电话     |                                   |
 | ETA              | 预计到仓时间 |                                   |
 | WAYBILL_NO       | 运单号 |                                   |
+| REMARK           | 备注 |                                   |
