@@ -131,7 +131,7 @@
  * CMS创建ASN时推送信息到OWB系统，状态为new
  * CMS修改ASN时推送信息到OWB系统，状态为update
  * CMS删除ASN时推送信息到OWB系统，状态为delete
- * CMS完成ASN接单是推送信息给OWB系统，状态为active
+ * CMS完成ASN接单推送信息给OWB系统，状态为active，接单后不允许对ASN进行修改和删除操作
  * 时间格式 yyyy-MM-dd HH:mm:ss
  * 车型，CMB数量，司机姓名，车牌号新建传入可以非必填
  
