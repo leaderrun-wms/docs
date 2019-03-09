@@ -12,7 +12,7 @@
   
 ## 接口地址  
   
-  * 测试地址：https://14.29.237.141:9090/leaderrun_edi/servlet/leaderrunServiceToCMS/oderRelease
+  * 测试地址：https://14.29.237.141:9090/leaderrun_edi/servlet/leaderrunServiceToCMS/orderRelease
   * 请求方法：POST
   * 请求头部：application/json
   * 请求Token：21596b33a4875896
