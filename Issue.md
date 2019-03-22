@@ -104,7 +104,7 @@ Authorization: Access_Key XXXXXXXX
 - 变更状态（OPEN -> CLOSED）
 - issue 中增加会话、或改变了某个会话
 
-回调内容：
+回调内容（POST请求）：
 
 ```json
 {
@@ -119,6 +119,10 @@ Authorization: Access_Key XXXXXXXX
 - 当 type=relations：details 为空，可于查询接口查看更新后的内容
 - 当 type=status： details 为 `{ "from": "from_status", "to": "to_status" }`
 - 当 type=conversation: details 为空（目前还没定义会话的内容接口）
+
+说明：
+* 当回调请求失败（网络异常，服务器异常，返回值非200），则会进行每1分钟重试
+* 同一个回调请求，在重试10分钟后，如果仍然失败，则此回调地址将会无法接受往后的回调，使用方需要重新注册登记回调地址
 
 ## 取消监听回调地址
 
