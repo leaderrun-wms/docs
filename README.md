@@ -37,11 +37,9 @@
 | 16   | [修改出库关务接口](UpdateOutbound.md)         | OWB    | FD     |      |      | 主动推送查询给CMS，CMS实时反馈结果；订单审核发送时，如果反馈结果不成功，WMS可以往下执行；发运之前再次请求，如果反馈结果为不成功，不能发运 |
 | 17   | [货物已出仓](OutboundConfirmation.md)         | OWB    | FD     |      |      | FIXME 货已离开仓库                                                                                                                        |
 | 18   | [出仓检查验证](OutboundCheck.md)              | OWB    | FD     | OK   |      |                                                  
-| 19   | [车型查询接口](Vehicletype.md)                   | FD    | OWB    | OK   |      | 
-
-| 20   | [异常中心接口](Issue.md)                   | OWB    | FD    |     |      | 异常订单生效，主动推送给 CMS
-
-| 21   | [异常货物清单查询接口](ItenListInfo.md)                   | OWB    | FD    |     |      | 提供接口给 CMS 查询
+| 19   | [车型查询接口](Vehicletype.md)                   | FD    | OWB    | OK   |      |                                                   
+| 20   | [异常中心接口](Issue.md)                   | OWB    | FD    |     |      | 异常订单生效，主动推送给 CMS                                             
+| 21   | [异常货物清单查询接口](ItenListInfo.md)                   | OWB    | FD    |     |      | 提供接口给 CMS 查询                           
 
 # 环境
 
