@@ -25,8 +25,8 @@
 {
   "busicode":"busicode",
   "owbItemId": "OWB的清关行唯一ID",
-  "itemDetail": [{
-			"id": "CMS清单行唯一ID",
+  "itemDetail": {
+		"id": "CMS清单行唯一ID",
  	  	"so": "S/O",
  	  	"po": "P/O#",
  	  	"item": "ITEM#",
