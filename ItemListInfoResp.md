@@ -54,7 +54,7 @@
 	"extend2": "",
 	"extend3": "",
 	"extend4": "",
-	extend5": ""
+	"extend5": ""
 	}
 }
 
