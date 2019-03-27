@@ -40,7 +40,10 @@
 | 19   | [车型查询接口](Vehicletype.md)                   | FD    | OWB    | OK   |      |                                                   
 | 20   | [异常中心接口](Issue.md)                   | OWB    | FD    |     |      | 异常订单生效，主动推送给 CMS                                             
 | 21   | [异常货物清单查询接口](ItenListInfo.md)           | OWB    | FD    |     |      | 提供接口给 CMS 查询                                       
-| 22   | [货物清单反馈接口](ItemListInfoResp.md)           | FD    | OWB    |     |      | 提供接口给 CMS 查询                            
+| 22   | [货物清单反馈接口](ItemListInfoResp.md)           | FD    | OWB    |     |      | 提供接口给 CMS 查询       
+          
+| 23   | [关务锁接口](IssueResp.md)           | FD    | OWB    |     |      | 关务锁单会主动推送   
+
 # 环境
 
 ## 开发环境
