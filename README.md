@@ -38,10 +38,11 @@
 | 17   | [货物已出仓](OutboundConfirmation.md)         | OWB    | FD     |      |      | FIXME 货已离开仓库                                                                                                                        |
 | 18   | [出仓检查验证](OutboundCheck.md)              | OWB    | FD     | OK   |      |                                                  
 | 19   | [车型查询接口](Vehicletype.md)                   | FD    | OWB    | OK   |      |                                                   
-| 20   | [异常中心接口](Issue.md)                   | OWB    | FD    |     |      | 异常订单生效，主动推送给 CMS                                             
+| 20   | [异常中心接口](Issue.md)                   | OWB/FD    | ISSUE    |     |      | 异常订单生效，主动推送给 CMS                                             
 | 21   | [异常货物清单查询接口](ItenListInfo.md)           | OWB    | FD    |     |      | 提供接口给 CMS 查询                                       
 | 22   | [货物清单反馈接口](ItemListInfoResp.md)           | FD    | OWB    |     |      | 提供接口给 CMS 查询                                                                                    
 | 23   | [关务锁接口](IssueResp.md)           | FD    | OWB    |     |      | 关务锁单会主动推送   
+| 24   | [FD接收异常通知](FDIssueNotification.md)   | OWB    | FD    |     |      | OWB在异常发生后，创建Issue后通知FD相关异常ID
 
 # 环境
 
@@ -50,5 +51,6 @@
 * OWB: TODO
 * FD: lhfdbe-test.yunbaoguan.cn:81
 * ASN: lhomsbe-test.yunbaoguan.cn:81
-
+* ISSUE: lhissue-test.yunbaoguan.cn
+* 
 ## 生产环境
