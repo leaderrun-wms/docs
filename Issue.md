@@ -51,9 +51,7 @@ Authorization: Access_Key XXXXXXXX
 {
   "success": true,
   "message": "若success为false时候的错误信息",
-  "result": {
-    "id": "创建了的ISSUE的唯一ID"
-  }
+  "result": "创建了的ISSUE的唯一ID"
 }
 ```
 
