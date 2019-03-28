@@ -51,6 +51,6 @@
 * OWB: TODO
 * FD: lhfdbe-test.yunbaoguan.cn:81
 * ASN: lhomsbe-test.yunbaoguan.cn:81
-* ISSUE: lhissue-test.yunbaoguan.cn
+* ISSUE: lhissuebe-test.yunbaoguan.cn
 * 
 ## 生产环境
