@@ -90,9 +90,7 @@ Authorization: Access_Key XXXXXXXX
 {
   "success": true,
   "message": "若success为false时候的错误信息",
-  "result": {
-    "id": "登记此回调的唯一ID，用于取消回调用"
-  }
+  "result": "登记此回调的唯一ID，用于取消回调用"
 }
 ```
 
