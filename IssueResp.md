@@ -1,10 +1,10 @@
-# 关务锁接口
+# OWB接收异常通知
 
 接口定义方:唯智
 
 ## 接口概述
 
-  CMS锁单时主动调用OWB系统的异常锁单接口
+  FD在异常发生后，创建Issue后通知OWB相关的异常ID
   
 ## 功能描述
 
@@ -12,7 +12,7 @@
 
 ## 接口地址  
   
-  * 测试地址:https://14.29.237.141:9090/leaderrun_edi/servlet/leaderrunServiceToCMS/IssueResp
+  * 测试地址:https://14.29.237.141:9090/leaderrun_edi/servlet/leaderrunServiceToCMS/issueResp
   * 请求方法:POST
   * 请求头部:application/json
   * 请求Token:21596b33a4875896
@@ -24,8 +24,7 @@
   ```json
 {
   "busicode":"busicode",
-  "issueid": "CMS创建的ISSUE的唯一ID",
-  "ItenId": ["ItemID1", "ItemID2", "ItemID3", "ItemID4"]
+  "issueid": "ISSUE ID"
 }
 
 ```
