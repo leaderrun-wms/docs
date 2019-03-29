@@ -38,7 +38,7 @@
 | 17   | [货物已出仓](OutboundConfirmation.md)         | OWB    | FD     |      |      | FIXME 货已离开仓库                                                                                                                        |
 | 18   | [出仓检查验证](OutboundCheck.md)              | OWB    | FD     | OK   |      |                                                  
 | 19   | [车型查询接口](Vehicletype.md)                   | FD    | OWB    | OK   |      |                                                   
-| 20   | [异常中心接口](Issue.md)                   | OWB/FD    | ISSUE    |     |      | 异常订单生效，主动推送给 CMS                                             
+| 20   | [异常中心接口](Issue.md)                   | OWB/FD    | ISSUE    |     |      | 异常订单生效，主动推送给 CMS ([有关异常数据分析](IssueAnalysis.md))                                             
 | 21   | [货物清单查询接口](ItenListInfo.md)           | OWB    | FD    |     |      | 提供接口给 CMS 查询                                       
 | 22   | [货物清单反馈接口](ItemListInfoResp.md)           | FD    | OWB    |     |      | 提供接口给 CMS 查询                                                                                    
 | 22   | [OWB接收异常通知接口](IssueResp.md)           | FD    | OWB    |     |      | FD在异常发生后，创建Issue后通知OWB相关异常ID                                                                                     
