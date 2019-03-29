@@ -33,16 +33,21 @@
 ```json
 {
     "busicode": "busicode",
-    "id": "清单行唯一ID",
-    "so": "so",
-    "po": "po",
-    "item": "item",
-    "unit": "包装单位",
-    "qty": "实际收货数量",
-    "extend1": "",
-    "extend2": "",
-    "extend3": "",
-    "extend4": "",
-    "extend5": ""
+    "status": "sucess",
+    "message": "若status为false时候的错误信息",
+    "detail":
+    {
+      "id": "清单行唯一ID",
+      "so": "so",
+      "po": "po",
+      "item": "item",
+      "unit": "包装单位",
+      "qty": "实际收货数量",
+      "extend1": "",
+      "extend2": "",
+      "extend3": "",
+      "extend4": "",
+      "extend5": ""
+    }
 }
 ```
