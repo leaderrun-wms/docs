@@ -33,8 +33,8 @@
 ```json
 {
     "busicode": "busicode",
-    "status": "sucess",
-    "message": "若status为false时候的错误信息",
+    "success": "true",
+    "message": "若success为false时候的错误信息",
     "detail":
     {
       "id": "清单行唯一ID",
