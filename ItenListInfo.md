@@ -4,7 +4,7 @@
 
 ## 接口概述
 
-  CMS通过清单行唯一ID查询OWB系统的异常货物清单接口
+  FD通过清单行唯一ID查询OWB系统的异常货物清单接口
   
 ## 功能描述
 
@@ -12,7 +12,7 @@
 
 ## 接口地址  
   
-  * 测试地址：http://14.29.237.141:9090/leaderrun_edi/servlet/leaderrunServiceToCMS/ItemListInfo
+  * 测试地址：http://14.29.237.141:9090/leaderrun_edi/servlet/leaderrunServiceToCMS/itemListInfo
   * 请求方法：POST
   * 请求头部：application/json
   * 头部Token:21596b33a4875896
@@ -24,7 +24,7 @@
   ```json
 {
   "busicode": "年月日时分秒+6位随机数",   
-  "cmsItemId": "CMS清关行唯一ID"
+  "cmsItemId": "清关行唯一ID"
 }
 ```
   
@@ -33,34 +33,16 @@
 ```json
 {
     "busicode": "busicode",
-    "cmsItemId": "CMS清关行唯一ID",
-    "Items": [
-        {
-            "id": "清单行唯一ID",
-            "so": "so",
-            "po": "po",
-            "item": "item",
-            "unit": "包装单位",
-            "qty": "实际收货数量",
-            "extend1": "",
-            "extend2": "",
-            "extend3": "",
-            "extend4": "",
-            "extend5": ""
-        } ,
-        {
-            "id": "清单行唯一ID",
-            "so": "so",
-            "po": "po",
-            "item": "item",
-            "unit": "包装单位",
-            "qty": "实际收货数量",
-            "extend1": "",
-            "extend2": "",
-            "extend3": "",
-            "extend4": "",
-            "extend5": ""
-        }
-    ]
+    "id": "清单行唯一ID",
+    "so": "so",
+    "po": "po",
+    "item": "item",
+    "unit": "包装单位",
+    "qty": "实际收货数量",
+    "extend1": "",
+    "extend2": "",
+    "extend3": "",
+    "extend4": "",
+    "extend5": ""
 }
 ```
