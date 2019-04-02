@@ -94,7 +94,24 @@ Authorization: Access_Key XXXXXXXX
             "id": "清单行唯一ID",
             "qty": "出库数量"
         }
-    ]
+    ],
+    "packages": {
+        "unit": "CTN",  // 出库外包装单位（操作单位） CTN/PLT/或其他约定的单位
+        "details": [
+            {
+                "id": "清单行唯一ID",  // 每一个清单行的操作数量
+                "qty": "操作数量"
+            },
+            {
+                "id": "清单行唯一ID",
+                "qty": "操作数量"
+            },
+            {
+                "id": "清单行唯一ID",
+                "qty": "操作数量"
+            }
+        ]
+    }
 }
 ```
 
