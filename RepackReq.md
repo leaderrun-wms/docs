@@ -54,7 +54,12 @@ Authorization: Access_Key XXXXXXXX
             "nw": netWeight,
             "nwUnit": "净重单位",
             "gw": grossWeight,
-            "gwUnit": "毛重单位"
+            "gwUnit": "毛重单位",
+            "properties": [
+              { "key": "so", "value": "so001" },
+              { "key": "po", "value": "po001" },
+              { "key": "item", "value": "item001" },
+            ]
         } // 可以多行货物
     ],
     "callbackUrl": "http://somehost.com/somepath"
