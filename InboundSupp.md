@@ -94,3 +94,9 @@ Authorization: Access_Key XXXXXXXX
 | ETA              | 预计到仓时间 |                                   |
 | WAYBILL_NO       | 运单号 |                                   |
 | REMARK           | 备注 |                                   |
+| DRIVER_ID_CARD   | 司机身份证 | 							|
+| DRIVER_CAR_BODY_WEIGHT | 车体自重 | 							|
+| DRIVER_CAR_FRAME_WEIGHT | 车架重 | 							|
+| DRIVER_CAR_HEADER_WEIGHT		   | 车头重量 | 							|
+| DRIVER_CARINET_WEIGHT		   | 柜重量 | 							|
+| DRIVER_CAR_FRAME_NO		   | 车架号码 | 							|
