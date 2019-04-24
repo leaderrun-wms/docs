@@ -42,7 +42,7 @@
 | 21   | [货物清单查询接口](ItenListInfo.md)           | OWB    | FD    |     |      | 提供接口给 CMS 查询                                       
 | 22   | [货物清单反馈接口](ItemListInfoResp.md)           | FD    | OWB    |     |      | 提供接口给 CMS 查询                                                                                    
 | 22   | [OWB接收异常通知接口](IssueResp.md)           | FD    | OWB    |     |      | FD在异常发生后，创建Issue后通知OWB相关异常ID                                                                                     
-| 24   | [FD接收异常通知](FDIssueNotification.md)   | OWB    | FD    |     |      | OWB在异常发生后，创建Issue后通知FD相关异常ID
+| 24   | [FD接收异常通知](FDIssueNotification.md)   | OWB    | FD    |     |      | OWB在异常发生后，创建Issue后通知FD相关异常ID |
 | 25   | [交仓预约接口](AppointDelivery.md) | OWB | ASN |  | | 监管仓库，创建交仓预约接口|
 
 # 环境
