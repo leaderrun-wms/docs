@@ -5,6 +5,34 @@
 - 具体 ASN_HOST 的配置在首页的环境栏目中描述
 - 测试环境使用 http 协议，生产环境使用 https 加密协议
 
+## 校验ASN号是否可预约
+
+路径：
+
+```
+    https://ASN_HOST/api/appointment/check/<asnId>
+```
+
+请求头信息：
+
+```
+Authorization: Access_Key XXXXXXXX
+```
+
+请求方法：GET
+
+返回内容：
+
+```json
+{
+
+    "success": true,
+    "message": "若success为false时候的错误信息",
+	"result": ""
+}
+```
+
+
 ## 创建交仓预约
 
 路径：
