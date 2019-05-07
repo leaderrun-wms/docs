@@ -10,7 +10,7 @@
 路径：
 
 ```
-    https://ASN_HOST/api/appointment/check/<asnId>
+    https://ASN_HOST/api/appointment/check
 ```
 
 请求头信息：
@@ -19,7 +19,15 @@
 Authorization: Access_Key XXXXXXXX
 ```
 
-请求方法：GET
+请求方法：POST
+
+请求内容：applicatin/json
+
+```json
+{
+	"asnIds": ['ASNXXXXX','ASNXXXXX','ASNXXXXX']
+}
+```
 
 返回内容：
 
@@ -65,7 +73,7 @@ Authorization: Access_Key XXXXXXXX
 					"driverMobile": "司机电话"
 				}
 			],
-	"asnIds": ['ASNXXXXX','ASNXXXXX','ASNXXXXX'],
+	"asnIds": ['ASNXXXXX','ASNXXXXX','ASNXXXXX']
 }
 ```
 
