@@ -98,5 +98,5 @@ Authorization: Access_Key XXXXXXXX
 | DRIVER_CAR_BODY_WEIGHT | 车体自重 | 							|
 | DRIVER_CAR_FRAME_WEIGHT | 车架重 | 							|
 | DRIVER_CAR_HEADER_WEIGHT		   | 车头重量 | 							|
-| DRIVER_CARINET_WEIGHT		   | 柜重量 | 							|
+| DRIVER_CABINET_WEIGHT		   | 柜重量 | 							|
 | DRIVER_CAR_FRAME_NO		   | 车架号码 | 							|
