@@ -25,7 +25,7 @@ Authorization: Access_Key XXXXXXXX
 
 ```json
 {
-	"asnIds": ['ASNXXXXX','ASNXXXXX','ASNXXXXX']
+	"asnIds": ["ASNXXXXX","ASNXXXXX","ASNXXXXX"]
 }
 ```
 
@@ -82,7 +82,7 @@ Authorization: Access_Key XXXXXXXX
 					"driverMobile": "司机电话"
 				}
 			],
-	"asnIds": ['ASNXXXXX','ASNXXXXX','ASNXXXXX']
+	"asnIds": ["ASNXXXXX","ASNXXXXX","ASNXXXXX"]
 }
 ```
 
@@ -130,7 +130,7 @@ Authorization: Access_Key XXXXXXXX
 					"driverMobile": "司机电话"
 				}
 			],
-	"asnIds": ['ASNXXXXX','ASNXXXXX'],
+	"asnIds": ["ASNXXXXX","ASNXXXXX"],
 }
 ```
 
