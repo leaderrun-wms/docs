@@ -33,10 +33,19 @@ Authorization: Access_Key XXXXXXXX
 
 ```json
 {
-
-    "success": true,
+    "success": true, 
     "message": "若success为false时候的错误信息",
-	"result": ""
+    "result": [{ // success为true返回
+			"asnId": "ASNXXXXX",
+			"cbm": "1234",
+			"warehouse": "PLC",
+			"customer": {
+				"customerCode": "大客code",
+				"customerName": "大客",
+				"childrenCustomerCode": "子客Code",
+				"childrenCustomerName": "子客"
+			}
+		}]
 }
 ```
 
@@ -64,7 +73,7 @@ Authorization: Access_Key XXXXXXXX
 
 	"appointmentId": "预约id",
 	"eta": 1555999135000, //预约时间
-	"etaInterval": "20:00 - 21:00" //预约时间区间
+	"etaInterval": "20:00 - 21:00", //预约时间区间
 	"cars": [
 				{
 					"licensePlateNo": "车牌",
@@ -112,7 +121,7 @@ Authorization: Access_Key XXXXXXXX
 
 	"appointmentId": "预约id",
 	"eta": 1555999135000, //预约时间
-	"etaInterval": "18:00 - 19:00" //预约时间区间
+	"etaInterval": "18:00 - 19:00", //预约时间区间
 	"cars": [
 				{
 					"licensePlateNo": "车牌",
