@@ -1,10 +1,10 @@
-# 扣减预约方数接口
+# 预约方数扣减接口
 
 接口定义方：唯智
 
 ## 接口概述
 
-  FD校验工单信息后将需预约时间和CBM信息推送给OWB进行方数扣减
+  FD校验工单信息后将需预约时间和CBM信息推送给OWB进行预约方数扣减。
 
 ## 功能描述
 
@@ -12,7 +12,7 @@
   
 ## 接口地址  
   
-  * 测试地址：https://14.29.237.141:9090/leaderrun_edi/servlet/leaderrunServiceToCMS/deductReservation  
+  * 测试地址：https://14.29.237.141:8090/leaderrun_edi/servlet/leaderrunServiceToCMS/deductReservation  
   * 请求方法：POST
   * 请求头部：application/json
   * 头部Token:21596b33a4875896
@@ -27,11 +27,8 @@
   "appointmentId": "预约ID",
   "appointmentCbm": "CBM（工单所有ASN的总方数）",
   "reserve1": "",
-  "reserve2":"",
-  "reserve3":"",
-  "reserve4":"",
-  "reserve5":""
-	
+  "reserve2": "",
+  "reserve3": ""	
 }
 
 返回内容：
