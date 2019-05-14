@@ -4,7 +4,7 @@
 
 ## 接口概述
 
-  FD校验工单订单信息后将需预约时间和CBM信息推送给OWB进行方数扣减
+  FD校验工单信息后将需预约时间和CBM信息推送给OWB进行方数扣减
 
 ## 功能描述
 
@@ -19,128 +19,27 @@
   
 ## 参数说明
   
-  Data：对外系统post给OWB系统的JSON格式报文 
-请求方法：POST
-
-请求内容：applicatin/json
-
-```json
+  Data：对外系统通过HTTP的post方式给OWB系统的JSON格式报文
+  
+  ```json
 {
-	"asnIds": ["ASNXXXXX","ASNXXXXX","ASNXXXXX"]
+  "busicode": "年月日时分秒+6位随机数",   
+  "appointmentId": "预约ID",
+  "appointmentCbm": "CBM（工单所有ASN的总方数）",
+  "reserve1": "",
+  "reserve2":"",
+  "reserve3":"",
+  "reserve4":"",
+  "reserve5":""
+	
 }
-```
 
 返回内容：
 
 ```json
 {
-    "success": true, 
-    "message": "若success为false时候的错误信息",
-    "result": [{ // success为true返回
-			"asnId": "ASNXXXXX",
-			"cbm": "1234",
-			"warehouse": "PLC",
-			"customer": {
-				"customerCode": "大客code",
-				"customerName": "大客",
-				"childrenCustomerCode": "子客Code",
-				"childrenCustomerName": "子客"
-			}
-		}]
-}
-```
-
-
-## 创建交仓预约
-
-路径：
-
-```
-    https://ASN_HOST/api/appointment
-```
-
-请求头信息：
-
-```
-Authorization: Access_Key XXXXXXXX
-```
-
-请求方法：POST
-
-请求内容：applicatin/json
-
-```json
-{
-
-	"appointmentId": "预约id",
-	"eta": 1555999135000, //预约时间
-	"etaInterval": "20:00 - 21:00", //预约时间区间
-	"cars": [
-				{
-					"licensePlateNo": "车牌",
-					"truckType": "车型",
-					"driverName": "司机姓名",
-					"driverMobile": "司机电话"
-				}
-			],
-	"asnIds": ["ASNXXXXX","ASNXXXXX","ASNXXXXX"]
-}
-```
-
-返回内容：
-
-```json
-{
-
     "success": true,
     "message": "若success为false时候的错误信息",
-	"result": "返回工单号"
+    "result": "busicode"
 }
 ```
-
-## 更新交仓预约
-
-
-路径：
-
-```
-    https://ASN_HOST/api/appointment/<appointmentId>
-```
-
-请求头信息：
-
-```
-Authorization: Access_Key XXXXXXXX
-```
-
-请求方法：PUT
-
-请求内容：applicatin/json
-
-```json
-{
-
-	"appointmentId": "预约id",
-	"eta": 1555999135000, //预约时间
-	"etaInterval": "18:00 - 19:00", //预约时间区间
-	"cars": [
-				{
-					"licensePlateNo": "车牌",
-					"truckType": "车型",
-					"driverName": "司机姓名",
-					"driverMobile": "司机电话"
-				}
-			],
-	"asnIds": ["ASNXXXXX","ASNXXXXX"],
-}
-```
-
-返回内容：
-
-```json
-{
-
-    "success": true,
-    "message": "若success为false时候的错误信息",
-	"result": null
-}
