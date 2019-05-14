@@ -44,6 +44,8 @@
 | 22   | [OWB接收异常通知接口](IssueResp.md)           | FD    | OWB    |     |      | FD在异常发生后，创建Issue后通知OWB相关异常ID                                                                                     
 | 24   | [FD接收异常通知](FDIssueNotification.md)   | OWB    | FD    |     |      | OWB在异常发生后，创建Issue后通知FD相关异常ID |
 | 25   | [交仓预约接口](AppointDelivery.md) | OWB | ASN |  | | 监管仓库，创建交仓预约接口|
+| 26   | [预约时间查询接口](Reservation.md) | FD | OWB |  | | 保税仓库，预约时间查询接口|
+| 27   | [预约时间扣减接口](DeductReservation.md) | FD | OWB |  | | 保税仓库/监管仓库，工单校验通过通知OWB扣减预约时间的CBM|
 
 # 环境
 
