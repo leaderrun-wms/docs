@@ -24,14 +24,11 @@
 {
   "busicode": "年月日时分秒+6位随机数",   
   "warehouseCode": "仓库编号",
-  "workCode": "客户编码",
-  "customerCode": "CBM（工单所有ASN的总方数）"
+  "customerCode": "客户编码",
+  "appointmentCbm": "CBM（工单所有ASN的总方数）"
   "reserve1": "",
   "reserve2":"",
-  "reserve3":"",
-  "reserve4":"",
-  "reserve5":""
-	
+  "reserve3":""	
 }
 ```
   
@@ -44,7 +41,7 @@
 			"appointmentId": "预约ID",
 			"eta":"预约日期",
 			"etaInterval": "预约时间段",
-	    "extend1": "",
+			"extend1": "",
 			"extend2": "",
 			"extend3": ""
 		},
@@ -52,7 +49,7 @@
 			"appointmentId": "预约ID",
 			"eta":"预约日期",
 			"etaInterval": "预约时间段",
-	    "extend1": "",
+	    		"extend1": "",
 			"extend2": "",
 			"extend3": ""
 		}]
