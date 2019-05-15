@@ -25,10 +25,7 @@
 {
   "busicode": "年月日时分秒+6位随机数",   
   "appointmentId": "预约ID",
-  "appointmentCbm": "CBM（工单所有ASN的总方数）",
-  "reserve1": "",
-  "reserve2": "",
-  "reserve3": ""	
+  "appointmentCbm": "CBM（工单所有ASN的总方数）"	
 }
 
 返回内容：
@@ -40,3 +37,5 @@
     "result": "busicode"
 }
 ```
+备注：
+1.请求参数appointmentId、appointmentCbm都必填，否则返回false；
