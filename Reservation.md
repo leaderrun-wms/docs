@@ -33,7 +33,9 @@
 
 ```json
 {
-  "busicode":"busicode",  
+  "busicode":"busicode",
+  "success": "true",
+  "message": "若success为false时候的错误信息",
   "timeSlots": [{
 			"appointmentId": "预约ID",
 			"eta":"预约日期",
