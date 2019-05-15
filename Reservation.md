@@ -26,9 +26,6 @@
   "warehouseCode": "仓库编号",
   "customerCode": "客户编码",
   "appointmentCbm": "CBM（工单所有ASN的总方数）"
-  "reserve1": "",
-  "reserve2":"",
-  "reserve3":""	
 }
 ```
   
@@ -40,18 +37,13 @@
   "timeSlots": [{
 			"appointmentId": "预约ID",
 			"eta":"预约日期",
-			"etaInterval": "预约时间段",
-			"extend1": "",
-			"extend2": "",
-			"extend3": ""
+			"etaInterval": "预约时间段"
+
 		},
 		{
 			"appointmentId": "预约ID",
 			"eta":"预约日期",
-			"etaInterval": "预约时间段",
-	    		"extend1": "",
-			"extend2": "",
-			"extend3": ""
+			"etaInterval": "预约时间段"
 		}]
 }
 ```
