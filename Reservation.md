@@ -47,3 +47,5 @@
 		}]
 }
 ```
+备注：
+1、请求参数warehouseCode、customerCode、appointmentCbm都必填，否则OWB返回false;
