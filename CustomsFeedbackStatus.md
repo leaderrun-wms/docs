@@ -30,15 +30,15 @@
 	"workCode": "工单号",
 	"customerCode": "客户编号"
 	"customsDetail": [{
-			"id": "清单行唯一ID",
+			"id": "报关单ID",
 			"status":"状态"
 		},
 		{
-			"id": "清单行唯一ID",
+			"id": "报关单ID",
 			"status":"状态"
 		},
 		{
-			"id": "清单行唯一ID",
+			"id": "报关单ID",
 			"status":"状态"
 		}
 	]
@@ -54,3 +54,5 @@
     "result":  "busicode"
 }
 ```
+备注：
+1.云报关系统报关单状态更新，每次只需推送报关单最新的状态给WMS系统
