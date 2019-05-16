@@ -30,17 +30,17 @@
 	"workCode": "工单号",
 	"status": "状态(入库||出库)"
 	"customsDetail": [{
-			"id": "清单行唯一ID",
+			"id": "报关单ID",
 			"url": "报关单链接",
 			"remark": "备注"
 		},
 		{
-			"id": "清单行唯一ID",
+			"id": "报关单ID",
 			"url": "报关单链接",
 			"remark": "备注"
 		},
 		{
-			"id": "清单行唯一ID",
+			"id": "报关单ID",
 			"url": "报关单链接",
 			"remark": "备注"
 		}
