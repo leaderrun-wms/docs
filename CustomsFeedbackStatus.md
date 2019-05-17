@@ -30,15 +30,15 @@
 	"workCode": "工单号",
 	"customerCode": "客户编号"
 	"customsDetail": [{
-			"id": "报关单ID",
+			"id": "报关单号",
 			"status":"状态"
 		},
 		{
-			"id": "报关单ID",
+			"id": "报关单号",
 			"status":"状态"
 		},
 		{
-			"id": "报关单ID",
+			"id": "报关单号",
 			"status":"状态"
 		}
 	]
