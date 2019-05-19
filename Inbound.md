@@ -37,7 +37,7 @@
 	"arriveDate": "预计到仓时间",
 	"status":"状态",
 	"driver_name":"司机姓名",
-	"reserve1": "",
+	"reserve1": "预约时间ID",
 	"reserve2": "",
 	"carDetail":[{
 			"license_plate_no":"车牌号",
@@ -109,7 +109,7 @@
 			"spare":"备品",
 			"asnNo":"ASN单号",
 			"stockType":"入仓方式",
-			"declarationNo":"报关单号",
+			"declarationNo":"报关单ID",
 			"extend1": "",
 			"extend2": "",
 			"extend3": "",
@@ -118,15 +118,15 @@
 		}
 	],
 	"customsDeclaration": [{//报关单
-	      "code":"报关单号",
+	      "code":"报关单ID",
 	      "type":"清关||转关"
 	      "customsDeclarationDetail": [{
-	          "id":"报关单ID",
+	          "id":"报关单行号",
 		  "lines":"行数",
 		  "name":"品名"
 	      },
 	      {
-	          "id":"报关单ID",
+	          "id":"报关单行号",
 		  "lines":"行数",
 		   "name":"品名"
 	      }
