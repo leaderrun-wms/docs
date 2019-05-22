@@ -25,7 +25,7 @@ Authorization: Access_Key XXXXXXXX
 
 ```json
 {
-	{
+	
     "wmsOrderId": "仓库系统出库订单唯一标识",
     "warehouseCode": "PLS",
     "properties": [
@@ -46,7 +46,7 @@ Authorization: Access_Key XXXXXXXX
             "qty": "10"
         }
     ]
-}
+
 }
 ```
 
