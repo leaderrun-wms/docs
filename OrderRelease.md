@@ -29,7 +29,7 @@
 	"busicode": "年月日时分秒+6位随机数",
 	"releaseType": "放行类型",
   "workCode": "工单号/流水号",
-	"releaseStatus":"人工放行 || 自动放行"
+	"releaseStatus":"已放行 || 未放行（已下发）"
 }
 ```
       	 
