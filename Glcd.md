@@ -43,6 +43,16 @@ Authorization: Access_Key XXXXXXXX
 
             "key": "IMPORT_EXPORT_PORT", // 进出境口岸代码
             "value": "5301"
+        },
+        {
+
+            "key": "SHIPPING_NO", // 货物运输批次号
+            "value": "5100489963144"
+        },
+        {
+
+            "key": "SHIPPING_DT", // 货物运输装载时间 
+            "value": "YYYY-MM-DD HH:mm:ss"
         }
     ],
     "items": [  // 清单信息
