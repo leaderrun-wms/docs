@@ -38,7 +38,12 @@ Authorization: Access_Key XXXXXXXX
                 "spec": "20|40|45|53",
                 "number": "柜号1"
             }]
-         }
+         },
+        {
+
+            "key": "IMPORT_EXPORT_PORT", // 进出境口岸代码
+            "value": "5301"
+        }
     ],
     "items": [  // 清单信息
         {
