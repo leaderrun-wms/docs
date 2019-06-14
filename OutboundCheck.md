@@ -32,6 +32,7 @@ Authorization: Access_Key XXXXXXXX
 
 ```json
 {
+    "inverse": false,   // 空或false：正常出库检查；true：退仓库存必须为0检查
     "items": [  // 支持多个货物行一次出库
         {
             "id": "清单行唯一ID",
