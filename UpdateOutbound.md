@@ -98,7 +98,10 @@ Authorization: Access_Key XXXXXXXX
     "success": true,
     "message": "若success为false时候的错误信息",
     "result": {
-        "decls":[{"urmNo":"PR0001-1","lineTotal":10,"attchmentUrl":"http://pdf.xxx.com/PR0001-1-2.pdf"},{"urmNo":"PR0001-2","lineTotal":10,"attchmentUrl":"http://pdf.xxx.com/PR0001-2-2.pdf"}]
+        "decls":[
+		{"urmNo":"PR0001-1","lineTotal":10,"attchmentUrl":"http://pdf.xxx.com/PR0001-1-2.pdf"},
+		{"urmNo":"PR0001-2","lineTotal":10,"attchmentUrl":"http://pdf.xxx.com/PR0001-2-2.pdf"}
+		]
     }
 }
 ```
