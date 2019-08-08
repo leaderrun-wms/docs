@@ -136,60 +136,60 @@ Authorization: Access_Key XXXXXXXX
 				"attchmentUrl":"http://pdf.xxx.com/PR0001-1-2.pdf",
 				"decId":"2ec076f1-3029-4aab-a8a5-d4c0aacf135c",
 				"details": [
-                    {
-                        "lineNo": 1, // 序号
-                        "hsCode": "9102190000", // 商品编码
-                        "ciCode": "9102190000999", // 商检编码
-                        "name": "三条明细，单箱（35CBM）", // 商品名称
-                        "spec": "3|0|锌合金表壳|电子驱动|指针|ALDO牌|无型号", // 商品要素
-                        "salesUnit": "008", // 成交单位
-                        "salesUnitQty": 10, // 成交数量
-                        "unit1": "008", // 法1单位
-                        "unit1Qty": 10, // 法1数量
-                        "unit2": null, // 法2单位
-                        "unit2Qty": null, // 法2数量
-                        "unitPrice": 20,  // 单价
-                        "totalPrice": 200,  // 总价
-                        "netWeight": 1.3333, // 净重
-                        "currency": "USD", // 币种
-                        "control": null,  // 监管条件
-                        "levy": "1", //
-                        "destinationCountry": "CHE", // 最终目的国
-                        "originCountry": "CHN", // 原厂国
-                        "origin": null, // 境内货源地
-                        "sourceCode": "440306", // 产地代码
-                        "goodsNumber": null, // 料件号
-                        "properties": [
-                            {
-                                "key": "grossWeight", // 毛重
-                                "value": 1.8333
-                            },
-                            {
-                                "key": "outboundcustomsLedgerId",
-                                "value": null
-                            },
-                            {
-                                "key": "outboundcustomsLedgerLineNo",
-                                "value": 0
-                            },
-                            {
-                                "key": "inboundDecId",
-                                "value": "2d741e52431f4ae0ac6a6c13635614b6"
-                            },
-                            {
-                                "key": "inboundDecItemNo",
-                                "value": 1
-                            },
-                            {
-                                "key": "inboundCustomsLedgerId",
-                                "value": "TTTIIK201908081603"
-                            },
-                            {
-                                "key": "inboundCustomsLedgerNo",
-                                "value": 25537145
-                            }
-                        ]
-			}
+                    			{
+						"lineNo": 1, // 序号
+						"hsCode": "9102190000", // 商品编码
+						"ciCode": "9102190000999", // 商检编码
+						"name": "三条明细，单箱（35CBM）", // 商品名称
+						"spec": "3|0|锌合金表壳|电子驱动|指针|ALDO牌|无型号", // 商品要素
+						"salesUnit": "008", // 成交单位
+						"salesUnitQty": 10, // 成交数量
+						"unit1": "008", // 法1单位
+						"unit1Qty": 10, // 法1数量
+						"unit2": null, // 法2单位
+						"unit2Qty": null, // 法2数量
+						"unitPrice": 20,  // 单价
+						"totalPrice": 200,  // 总价
+						"netWeight": 1.3333, // 净重
+						"currency": "USD", // 币种
+						"control": null,  // 监管条件
+						"levy": "1", //
+						"destinationCountry": "CHE", // 最终目的国
+						"originCountry": "CHN", // 原厂国
+						"origin": null, // 境内货源地
+						"sourceCode": "440306", // 产地代码
+						"goodsNumber": null, // 料件号
+						"properties": [
+						    {
+							"key": "grossWeight", // 毛重
+							"value": 1.8333
+						    },
+						    {
+							"key": "outboundcustomsLedgerId",
+							"value": null
+						    },
+						    {
+							"key": "outboundcustomsLedgerLineNo",
+							"value": 0
+						    },
+						    {
+							"key": "inboundDecId",
+							"value": "2d741e52431f4ae0ac6a6c13635614b6"
+						    },
+						    {
+							"key": "inboundDecItemNo",
+							"value": 1
+						    },
+						    {
+							"key": "inboundCustomsLedgerId",
+							"value": "TTTIIK201908081603"
+						    },
+						    {
+							"key": "inboundCustomsLedgerNo",
+							"value": 25537145
+						    }
+						]
+					}
 		],
 		"decIdLineIdMappings" : {
 			"2ec076f1-3029-4aab-a8a5-d4c0aacf135c" // 报关单ID : 
