@@ -38,7 +38,7 @@
 	"status":"状态",
 	"driver_name":"司机姓名",
 	"reserve1": "预约时间ID",
-	"reserve2": "",
+	"reserve2": "是否月结",
 	"carDetail":[{
 			"license_plate_no":"车牌号",
 			"truck_type":"车型"
@@ -76,8 +76,8 @@
 			"asnNo":"ASN单号",
 			"stockType":"入仓方式",
 			"declarationNo":"报关单号",
-			"extend1": "",
-			"extend2": "",
+			"extend1": "shipper name",
+			"extend2": "customerid,file owner",
 			"extend3": "",
 			"extend4": "",
 			"extend5": ""
@@ -110,8 +110,8 @@
 			"asnNo":"ASN单号",
 			"stockType":"入仓方式",
 			"declarationNo":"报关单ID",
-			"extend1": "",
-			"extend2": "",
+			"extend1": "shipper name",
+			"extend2": "customerid,file owner",
 			"extend3": "",
 			"extend4": "",
 			"extend5": ""
