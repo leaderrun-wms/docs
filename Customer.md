@@ -40,11 +40,13 @@
     "message": "若success为false时候的错误信息",
     "customerDetail": [{
         "customerName": "客户名称",
-        "customerCode": "客户编码"
+        "customerCode": "客户编码",
+	"is_edi": "Y"
     },
     {
         "customerName": "客户名称",
-        "customerCode": "客户编码"
+        "customerCode": "客户编码",
+	"is_edi": ""
     }]
 }
 ```
