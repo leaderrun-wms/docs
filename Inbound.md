@@ -77,7 +77,7 @@
 			"stockType":"入仓方式",
 			"declarationNo":"报关单号",
 			"extend1": "shipper name",
-			"extend2": "customerid,file owner",
+			"extend2": "edi_customerid,edi_fileowner,edi_shi",
 			"extend3": "",
 			"extend4": "",
 			"extend5": ""
@@ -111,7 +111,7 @@
 			"stockType":"入仓方式",
 			"declarationNo":"报关单ID",
 			"extend1": "shipper name",
-			"extend2": "customerid,file owner",
+			"extend2": "edi_customerid,edi_fileowner,edi_shi",
 			"extend3": "",
 			"extend4": "",
 			"extend5": ""
