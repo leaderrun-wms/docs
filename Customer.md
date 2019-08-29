@@ -41,12 +41,12 @@
     "customerDetail": [{
         "customerName": "客户名称",
         "customerCode": "客户编码",
-	"is_edi": "Y"
+	"is_edi": "true"
     },
     {
         "customerName": "客户名称",
         "customerCode": "客户编码",
-	"is_edi": ""
+	"is_edi": "false"
     }]
 }
 ```
