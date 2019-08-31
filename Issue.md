@@ -44,7 +44,7 @@ Authorization: Access_Key XXXXXXXX
     {
       "type": "outbound",
       "content": ["出库单号1", "出库单号2"]
-    }	
+    }
   ]
 }
 ```
