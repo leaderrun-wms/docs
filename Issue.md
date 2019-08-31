@@ -40,7 +40,11 @@ Authorization: Access_Key XXXXXXXX
     {
       "type": "declaration",
       "content": ["报关单号1", "报关单号2"]
-    }
+    },
+    {
+      "type": "outbound",
+      "content": ["出库单号1", "出库单号2"]
+    }	
   ]
 }
 ```
