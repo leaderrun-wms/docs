@@ -47,7 +47,7 @@
 			"id": "清单行唯一ID",
 			"type":"费用项",
 			"qty": "金额",
-	                "extend1": "",
+	                "extend1": "数量",
 			"extend2": "",
 			"extend3": ""
 		},
@@ -55,7 +55,7 @@
 			"id": "清单行唯一ID",
 			"type":"费用项",
 			"qty": "金额",
-	                "extend1": "",
+	                "extend1": "数量",
 			"extend2": "",
 			"extend3": ""
 		}]
