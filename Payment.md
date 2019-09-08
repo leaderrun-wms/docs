@@ -31,16 +31,16 @@
 			"id": "清单行唯一ID",
 			"type":"费用项",
 			"qty": "金额",
-			"reserve1": "",
-			"reserve2": "",
+			"reserve1": "收费人",
+			"reserve2": "收费日期",
 			"reserve3": ""
 		},
 		{
 			"id": "清单行唯一ID",
 			"type":"费用项",
 			"qty": "金额",
-			"reserve1": "",
-			"reserve2": "",
+			"reserve1": "收费人",
+			"reserve2": "收费日期",
 			"reserve3": ""
 		}]
 }
