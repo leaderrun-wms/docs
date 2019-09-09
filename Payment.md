@@ -28,11 +28,11 @@
   "customerCode": "客户编号",
   "status": "1-正常费用/2-正常无费用/3-异常无费用",
   "billingDetail": [{
-			"id": "清单行唯一ID",
+			"id": "费用ID",
 			"type":"费用项",
 			"qty": "金额",
 			"reserve1": "收费人",
-			"reserve2": "收费日期",
+			"reserve2": "收费时间，格式：yyyy-MM-dd hh:mm:ss",
 			"reserve3": ""
 		},
 		{
@@ -40,7 +40,7 @@
 			"type":"费用项",
 			"qty": "金额",
 			"reserve1": "收费人",
-			"reserve2": "收费日期",
+			"reserve2": "收费时间，格式:yyyy-MM-dd hh:mm:ss",
 			"reserve3": ""
 		}]
 }
