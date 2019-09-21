@@ -14,7 +14,7 @@
 路径：
 
 ```
-    https://FD_HOST/outbound/{processId}
+    https://FD_HOST/outbound
 ```
 
 * 具体FD_HOST的配置在首页的环境栏目中描述
@@ -33,6 +33,7 @@ Authorization: Access_Key XXXXXXXX
 ```json
 {
     "wmsOrderId": "仓库系统出库订单唯一标识",
+    "processId" : "",
     "wmsOrderDate": unixEpochInMillisecond,
     "properties": [
         {
@@ -87,7 +88,24 @@ Authorization: Access_Key XXXXXXXX
             "id": "清单行唯一ID",
             "qty": "出库数量"
         }
-    ]
+    ],
+    "packages": {
+        "unit": "CTN",  // 出库外包装单位（操作单位） CTN/PLT/或其他约定的单位
+        "details": [
+            {
+                "id": "清单行唯一ID",  // 每一个清单行的操作数量
+                "qty": "操作数量"
+            },
+            {
+                "id": "清单行唯一ID",
+                "qty": "操作数量"
+            },
+            {
+                "id": "清单行唯一ID",
+                "qty": "操作数量"
+            }
+        ]
+    }
 }
 ```
 
