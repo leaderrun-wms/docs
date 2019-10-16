@@ -64,6 +64,14 @@ Authorization: Access_Key XXXXXXXX
             "key": "VOYAGE_NO",
             "value": "XXX"  // 船名航次
         },
+	{
+	     "key": "customerName", // 大客
+	     "value": "德迅中国"
+	},
+	{
+	     "key": "childrenCustomerName", // 子客
+	     "value": "KN-SEX"
+	},	
         {
             "key": "CONTAINERS",//柜信息
             "value": "value": 
@@ -134,7 +142,7 @@ Authorization: Access_Key XXXXXXXX
 				"urmNo":"PR0001-1",
 				"lineTotal":10,
 				"attchmentUrl":"http://pdf.xxx.com/PR0001-1-2.pdf",
-				"decId":"2ec076f1-3029-4aab-a8a5-d4c0aacf135c",
+				"decId":"2ec076f1-3029-4aab-a8a5-d4c0aacf135c", // 报关单id
 				"details": [
                     			{
 						"lineNo": 1, // 序号
@@ -191,10 +199,13 @@ Authorization: Access_Key XXXXXXXX
 						]
 					}
 		],
-		"decIdLineIdMappings" : {
-			"2ec076f1-3029-4aab-a8a5-d4c0aacf135c" // 报关单ID : 
-			["74bedc7b24f34a51a0a165b277eb084a"] // 清单ID
-		}
+		"decIdLineIdMappings" : [
+			    {
+				"mfLineId":"414e5d8f-813b-4bae-a4b0-ed7673fc8657", // 清单ID
+				"decId":"2ec076f1-3029-4aab-a8a5-d4c0aacf135c", // 报关单Id
+				"decLineNo":1, // 报关单序号
+			    }
+		]
     }
 }
 ```
