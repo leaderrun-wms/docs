@@ -166,6 +166,8 @@ Authorization: Access_Key XXXXXXXX
 					"origin": null, // 境内货源地
 					"sourceCode": "440306", // 产地代码
 					"goodsNumber": null, // 料件号
+                                        "cartonSpec" ：10, // 箱数
+					"grossWeight" : 10.3332, // 	
 					"properties": [
 									{
 										"key": "grossWeight", // 毛重
