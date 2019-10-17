@@ -36,8 +36,8 @@ Authorization: Access_Key XXXXXXXX
 ```json
 {
     "wmsOrderId": "仓库系统出库订单唯一标识",
-    "wmsOrderDate": unixEpochInMillisecond,
-    "warehouseCode": "PLS",
+    "wmsOrderDate": unixEpochInMillisecond,//出仓时间
+    "warehouseCode": "PLS", //站点代码
     "omsProcessConfigId": "流程ID",
     "properties": [
         {
