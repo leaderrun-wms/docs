@@ -85,3 +85,40 @@ Authorization: Access_Key XXXXXXXX
 返回内容： 
 
 	byte[]
+	
+	
+请求数据样本   
+```javasctipt
+{
+	"wmsOrderId": "XPLC191000016",
+	"processId": "EPLA191000090",
+	"warehouseCode": "PLC",
+	"items": [{
+			"id": "1a3a5730b36d43a192ba4ccee82bdcbb",
+			"qty": "20.0"
+		}
+	],
+	"properties": [{
+			"key": "IMPORT_EXPORT_PORT",
+			"value": "5320"
+		}, {
+			"key": "CONTAINERS",
+			"value": [{
+					"seq": "1",
+					"type": "HQ",
+					"spec": "40",
+					"number": ""
+				}
+			]
+		}
+	],
+	"packages": {
+		"unit": "CTN",
+		"details": [{
+				"id": "1a3a5730b36d43a192ba4ccee82bdcbb",
+				"qty": "2"
+			}
+		]
+	}
+}
+```
