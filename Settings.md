@@ -8,8 +8,8 @@
 | FD前台      | N/A                             | https://lhfd.yunbaoguan.cn      |
 | ITS后台     | http://lhissuebei.yunbaoguan.cn | https://lhissuebe.yunbaoguan.cn |
 | ITS前台     | N/A                             | https://lhissue.yunbaoguan.cn   |
-| OWB系统     | <请填充>                         |                                 |
-
+| OWB后台     | http://10.10.0.2：8090          | http://14.29.237.141：8090      |
+| OWB前台     | N/A                             | http://wms.leaderrun.com        |
 
 ## 具体DNS配置：
 
@@ -23,6 +23,7 @@
 
 * oms.leaderrun.com     14.29.237.251 (外网)
 
+* wms.leaderrun.com     14.29.237.141(外网)
 
-* ?? 14.29.237.141（外网）
-* ?? 10.10.0.2 (内网)
+* wms                   14.29.237.141（外网）
+* wms                   10.10.0.2 (内网)
