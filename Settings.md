@@ -8,7 +8,7 @@
 | FD前台      | N/A                             | https://lhfd.yunbaoguan.cn      |
 | ITS后台     | http://lhissuebei.yunbaoguan.cn | https://lhissuebe.yunbaoguan.cn |
 | ITS前台     | N/A                             | https://lhissue.yunbaoguan.cn   |
-| OWB后台     | http://10.10.0.2：8090          | http://14.29.237.141：8090      |
+| OWB后台     | http://10.10.0.2：8090          | http://14.29.237.141:8090       |
 | OWB前台     | N/A                             | http://wms.leaderrun.com        |
 
 ## 具体DNS配置：
