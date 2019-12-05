@@ -41,7 +41,7 @@
 {
   "busicode":"busicode",
   "workCode": "工单号",
-  "status":"1-正常费用/2-正常无费用/3-异常无费用",
+  "status":"1/2/3/4",
   "customerCode": "客户编号" ,  
   "billingDetail": [{
 			"id": "费用ID",
