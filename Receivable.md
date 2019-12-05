@@ -44,26 +44,33 @@
   "status":"1-正常费用/2-正常无费用/3-异常无费用",
   "customerCode": "客户编号" ,  
   "billingDetail": [{
-			"id": "清单行唯一ID",
+			"id": "费用ID",
 			"type":"费用项",
 			"qty": "金额",
-	                "reserve1": "数量",
-			"reserve2": "",
-			"reserve3": ""
+                        "quantity": "数量",
+	                "transactionNo": "交易号",
+			"chargeStatus": "收费状态",
+			"tollCollector": “收费人",
+			"chargeTime": "收费时间，格式:yyyy-MM-dd hh:mm:ss"
 		},
 		{
-			"id": "清单行唯一ID",
+			"id": "费用ID",
 			"type":"费用项",
 			"qty": "金额",
-	                "reserve1": "数量",
-			"reserve2": "",
-			"reserve3": ""
+                        "quantity": "数量",
+	                "transactionNo": "交易号",
+			"chargeStatus": "收费状态",
+			"tollCollector": “收费人",
+			"chargeTime": "收费时间，格式:yyyy-MM-dd hh:mm:ss"
 		}]
 }
 ```
 
 备注：
+1.status的状态值说明：
  * 当status=4，OWB无现金无月结费用，属于异常状态，CMS需控制不允许下一步操作；
  * 当status=3，OWB纯月结费用且CMS已做纯月结缴费确认，CMS需控制不允许再执行纯月结费用缴费；
  * 当status=2，OWB纯月结费用，即无现金费用且有纯月结费用，CMS需做纯月结费用缴费确认，即第一次纯月结费用缴费确认；
  * 当status=1，OWB纯现金费用，CMS需做纯现金缴费确认。
+2.传值说明：
+ * 每次查询WMS需将该单的已缴费和生效且未缴费的现金费用项全部传输给CMS，CMS用于缴费和打印小票
