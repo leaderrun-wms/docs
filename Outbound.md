@@ -105,6 +105,7 @@ Authorization: Access_Key XXXXXXXX
     ],
     "packages": {
         "unit": "CTN",  // 出库外包装单位（操作单位） CTN/PLT/或其他约定的单位
+	"qty": "总数量", // 如果清单行无法知道数量，填这个总箱数，如果清单行数量对应关系是明确的，这个地方填空（null 或 0）
         "details": [
             {
                 "id": "清单行唯一ID",  // 每一个清单行的操作数量
