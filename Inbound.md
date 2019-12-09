@@ -125,7 +125,7 @@
 	"customsDeclaration": [{//报关单
 	      "code":"报关单ID",
 	      "type":"清关||转关",
-	      "taxBack":"是否退税"
+	      "taxBack":"是否退税",
 	      "customsDeclarationDetail": [{
 	          "id":"报关单行号",
 		  "lines":"行数",
