@@ -28,7 +28,8 @@
 	"warehouseCode": "仓库编号",
 	"workCode": "工单号",
 	"customerCode": "订单客户编号",
-	"paymentCode": "付款方编号",
+	"paymentCode": "收货方编号",
+	"settlementCode": "付款方编号",
 	"consignorConsigneeCode": "Crm工厂",
 	"consignorConsigneeName": "Crm工厂名称",
 	"consignorConsigneeEmail": "Crm工厂",
@@ -123,7 +124,8 @@
 	],
 	"customsDeclaration": [{//报关单
 	      "code":"报关单ID",
-	      "type":"清关||转关"
+	      "type":"清关||转关",
+	      "taxBack":"是否退税"
 	      "customsDeclarationDetail": [{
 	          "id":"报关单行号",
 		  "lines":"行数",
