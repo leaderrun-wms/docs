@@ -46,8 +46,8 @@
   "billingDetail": [{
 			"id": "费用ID",
 			"type":"费用项",
-			"qty": "金额",
-                        "quantity": "数量",
+			"qty": "数量",
+                        "reserve1": "金额",
 	                "transactionNo": "交易号",
 			"chargeStatus": "收费状态",
 			"tollCollector": “收费人",
@@ -56,8 +56,8 @@
 		{
 			"id": "费用ID",
 			"type":"费用项",
-			"qty": "金额",
-                        "quantity": "数量",
+			"qty": "数量",
+                        "reserve1": "金额",
 	                "transactionNo": "交易号",
 			"chargeStatus": "收费状态",
 			"tollCollector": “收费人",
