@@ -42,11 +42,13 @@
 	"reserve2": "是否月结",
 	"carDetail":[{
 			"license_plate_no":"车牌号",
-			"truck_type":"车型"
+			"truck_type":"车型",
+                        "PHONE":"手机号码"
 		},
 		{	
 			"license_plate_no":"车牌号",
-			"truck_type":"车型"	
+			"truck_type":"车型",
+                        "PHONE":"手机号码"	
 		}
 	],	
 	"oderDetail": [{
