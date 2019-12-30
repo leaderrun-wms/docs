@@ -43,12 +43,12 @@
 	"carDetail":[{
 			"license_plate_no":"车牌号",
 			"truck_type":"车型",
-                        "PHONE":"手机号码"
+                        "phone":"手机号码"
 		},
 		{	
 			"license_plate_no":"车牌号",
 			"truck_type":"车型",
-                        "PHONE":"手机号码"	
+                        "phone":"手机号码"	
 		}
 	],	
 	"oderDetail": [{
@@ -81,7 +81,7 @@
 			"declarationNo":"报关单号",
 			"declarationLineNo":"报关单行号",
 			"declarationItemName":"品名",
-			"HSCode":"商品编码",
+			"hscode":"商品编码",
 			"extend1": "shipper name",
 			"extend2": "edi_customerid,edi_fileowner,edi_shi",
 			"extend3": "",
@@ -118,7 +118,7 @@
 			"declarationNo":"报关单ID",
 			"declarationLineNo":"报关单行号",
 			"declarationItemName":"品名",
-			"HSCode":"商品编码",
+			"hscode":"商品编码",
 			"extend1": "shipper name",
 			"extend2": "edi_customerid,edi_fileowner,edi_shi",
 			"extend3": "",
