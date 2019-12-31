@@ -133,12 +133,14 @@
 	      "customsDeclarationDetail": [{
 	          "id":"报关单行号",
 		  "lines":"行数",
-		  "name":"品名"
+		  "name":"品名",
+		  "hscode" : "海关编码"
 	      },
 	      {
 	          "id":"报关单行号",
 		  "lines":"行数",
-		   "name":"品名"
+		   "name":"品名",
+		  "hscode" : "海关编码"		   
 	      }
 	     }]
 	}]
