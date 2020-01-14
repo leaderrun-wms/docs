@@ -41,6 +41,10 @@ Authorization: Access_Key XXXXXXXX
     "omsProcessConfigId": "流程ID",
     "properties": [
         {
+            "key": "ORDERTYPE",
+            "value": "BASEORDER_OUT"  // 订单类型
+        },
+        {
             "key": "DESTINATION_COUNTRY",
             "value": "CHN"  // 目的国 ISO三位编码
         },
