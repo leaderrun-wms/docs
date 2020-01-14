@@ -46,7 +46,8 @@ Authorization: Access_Key XXXXXXXX
             "id": "清单行唯一ID",
             "qty": "出库数量"
         }
-    ]
+    ],
+    "orderType": "单据类型"
 }
 ```
 
