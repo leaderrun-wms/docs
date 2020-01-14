@@ -42,7 +42,7 @@ Authorization: Access_Key XXXXXXXX
     "properties": [
         {
             "key": "ORDERTYPE",
-            "value": "BASEORDER_OUT"  // 订单类型
+            "value": "BASEORDER_OUT"  // 订单类型代码
         },
         {
             "key": "DESTINATION_COUNTRY",
