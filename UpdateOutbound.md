@@ -35,6 +35,7 @@ Authorization: Access_Key XXXXXXXX
     "wmsOrderId": "仓库系统出库订单唯一标识",
     "processId" : "",
     "wmsOrderDate": unixEpochInMillisecond,
+    "orderType": "订单类型", // 看 orderType.md 
     "properties": [
         {
             "key": "DESTINATION_COUNTRY",
