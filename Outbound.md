@@ -39,11 +39,8 @@ Authorization: Access_Key XXXXXXXX
     "wmsOrderDate": unixEpochInMillisecond,//出仓时间
     "warehouseCode": "PLS", //站点代码
     "omsProcessConfigId": "流程ID",
+    "orderType": "订单类型", // 看 orderType.md 
     "properties": [
-        {
-            "key": "ORDERTYPE",
-            "value": "BASEORDER_OUT"  // 订单类型代码
-        },
         {
             "key": "DESTINATION_COUNTRY",
             "value": "CHN"  // 目的国 ISO三位编码
