@@ -25,8 +25,10 @@
    ```json
 {
 	"busicode": "年月日时分秒+6位随机数",
-	"warehouseCode": "仓库编号",
+	"warehouseCode": "仓库编号",	
 	"workCode": "工单号",
+	"ordreType": "订单类型",
+	"transportMode": "运输方式",
 	"customerCode": "订单客户编号",
 	"paymentCode": "收货方编号",
 	"settlementCode": "付款方编号",
