@@ -27,3 +27,11 @@
 
 * wms                   14.29.237.141（外网）
 * wms                   10.10.0.2 (内网)
+
+
+# 计划测试访问地址
+OMS: http://omsbe.lh.yunbaoguan.cn:81
+FD: http://fdbe.lh.yunbaoguan.cn:81/
+ISSUE: http://issuebe.lh.yunbaoguan.cn:81/
+OWB后台： 内网（http://10.10.0.2:8091）   外网（http://14.29.237.141:8091）
+OWB前台： 外网（http://14.29.237.141:8088/leaderrun/reIndex.html）
