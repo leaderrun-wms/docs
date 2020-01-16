@@ -39,6 +39,7 @@ Authorization: Access_Key XXXXXXXX
     "wmsOrderDate": unixEpochInMillisecond,//出仓时间
     "warehouseCode": "PLS", //站点代码
     "omsProcessConfigId": "流程ID",
+    "modeCode": "标识", // 1为出库，2为商检
     "orderType": "订单类型", // 看 orderType.md 
     "properties": [
         {
