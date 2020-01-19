@@ -6,19 +6,18 @@
 
 1. 出口入区（编码：EXPORT_IN）
 2. 进境入区（编号：ENTRY_IN）
-3. 区内转入（编号：TIA_IN）
-4. 区外转入（编号：TOA_IN）
+3. 仓转仓入库（编号：WTOW_IN）
 
 监管仓：
 
-5. 入库订单（编号：BASEORDER_IN）
+4. 入库订单（编号：BASEORDER_IN）
 
 其他：
 
-6. 退场入库（编号：BACKLOCATION_IN）
-7. 普通入库（编号：ORDINARYORDER_IN）
+5. 退场入库（编号：BACKLOCATION_IN）
+6. 普通入库（编号：ORDINARYORDER_IN）
 
-其中1-5的订单类型的入库订单需在FD、OWB系系统进行交互。
+其中1-4的订单类型的入库订单需在FD、OWB系系统进行交互。
 
 二、出库订单类型：
 
