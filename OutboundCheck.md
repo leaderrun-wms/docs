@@ -63,7 +63,7 @@ Authorization: Access_Key XXXXXXXX
             { "id": "清单行唯一ID", "message": "该清单行错误信息" }
         ]
     },
-    result: {
+    "result": {
         "ciq": [
             "清单行唯一ID", "清单行唯一ID" // 需要商检的货物
         ]
