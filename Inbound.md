@@ -28,7 +28,6 @@
 	"warehouseCode": "仓库编号",	
 	"workCode": "工单号",
 	"orderType": "单据类型", //需传编码
-	"transportMode": "运输方式", //需传编码
 	"customerCode": "订单客户编号",
 	"paymentCode": "收货方编号",
 	"settlementCode": "付款方编号",
@@ -55,6 +54,7 @@
 	],	
 	"oderDetail": [{
 			"id": "清单行唯一ID",
+			"transportMode": "运输方式", //需传编码
 			"so": "S/O",
 			"po": "P/O#",
 			"item": "ITEM#",
