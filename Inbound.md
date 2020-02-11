@@ -53,8 +53,7 @@
 		}
 	],	
 	"oderDetail": [{
-			"id": "清单行唯一ID",
-			"transportMode": "运输方式", //需传编码
+			"id": "清单行唯一ID",			
 			"so": "S/O",
 			"po": "P/O#",
 			"item": "ITEM#",
@@ -132,6 +131,7 @@
 	      "code":"报关单ID",
 	      "type":"清关||转关",
 	      "taxBack":"是否退税",
+	      "transportMode": "运输方式", //需传编码
 	      "customsDeclarationDetail": [{
 	          "id":"报关单行号",
 		  "lines":"行数",
