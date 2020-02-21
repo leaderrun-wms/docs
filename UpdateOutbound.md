@@ -71,7 +71,7 @@ Authorization: Access_Key XXXXXXXX
 	},	
         {
             "key": "CONTAINERS",//柜信息
-            "value": "value": 
+            "value":
             [{               
                 "type": "HQ|GP",
                 "spec": "20|40|45|53",
