@@ -41,6 +41,8 @@
 	"driver_name":"司机姓名",
 	"reserve1": "预约时间ID",
 	"reserve2": "是否月结",
+	"satelliteWSign": "卫星仓标识",
+	"satelliteWArea": "卫星仓区域",
 	"carDetail":[{
 			"license_plate_no":"车牌号",
 			"truck_type":"车型",
