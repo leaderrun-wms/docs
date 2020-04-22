@@ -31,16 +31,19 @@
 	"status": "状态(入库||出库)"
 	"customsDetail": [{
 			"id": "报关单ID",
+			"ledgerId": "核注清单号",
 			"url": "报关单链接",
 			"remark": "备注"
 		},
 		{
 			"id": "报关单ID",
+			"ledgerId": "核注清单号",
 			"url": "报关单链接",
 			"remark": "备注"
 		},
 		{
 			"id": "报关单ID",
+			"ledgerId": "核注清单号",
 			"url": "报关单链接",
 			"remark": "备注"
 		}
