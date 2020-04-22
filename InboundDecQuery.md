@@ -67,7 +67,7 @@ Authorization: Access_Key XXXXXXXX
         					"totalPrice": 200, // 总价
         					"netWeight": 1.3333, // 净重
         					"currency": "USD", // 币种
-        					"control": null, // 监管条件
+        					"control": null, // 监管条件（传中文）
         					"levy": "1",//征免性质（传中文）
         					"destinationCountry": "CHE", // 最终目的国（传中文）
         					"originCountry": "CHN", // 原厂国（传中文）
