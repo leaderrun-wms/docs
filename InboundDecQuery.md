@@ -41,42 +41,42 @@ Authorization: Access_Key XXXXXXXX
 
 ```json
 {
-	"success": true,
-	"message": "若success为false时候的错误信息",
-	"result": [
+    "success": true,
+    "message": "若success为false时候的错误信息",
+    "result": [
         {
             "inboundBatchNo": "入库单号1",
             "items": [ // 入库单所有请单行
                 {
                     "id": "line-id-001",
-                    "qty": "10.0",//PCS数
+                    "qty": "10.0", //PCS数
                     "decItems": [ // 表示商品 line-id-001 关联了 2 行关务行
                         {
-        					"lineNo": 1, // 原报关单序号
-        					"hsCode": "9102190000", // 商品编码
-        					"ciCode": "9102190000999", // 商检编码
-        					"name": "三条明细，单箱（35CBM）", // 商品名称
-        					"spec": "3|0|锌合金表壳|电子驱动|指针|ALDO牌|无型号", // 商品要素
-        					"salesUnit": "008", // 成交单位（传中文）
-        					"salesUnitQty": 10, // 成交数量
-        					"unit1": "008", // 法1单位（传中文）
-        					"unit1Qty": 10, // 法1数量
-        					"unit2": null, // 法2单位（传中文）
-        					"unit2Qty": null, // 法2数量
-        					"unitPrice": 20, // 单价
-        					"totalPrice": 200, // 总价
-        					"netWeight": 1.3333, // 净重
-        					"currency": "USD", // 币种
-        					"control": null, // 监管条件（传中文）
-        					"levy": "1",//征免性质（传中文）
-        					"destinationCountry": "CHE", // 最终目的国（传中文）
-        					"originCountry": "CHN", // 原厂国（传中文）
-        					"origin": "深圳特区", // 境内货源地（传中文）
-        					"sourceCode": "440306", // 产地代码
-        					"goodsNumber": PLA20040001-1-1, // 料件号
-                            			"cartonSpec": 10, // 箱数
-        					"grossWeight" : 10.3332, // 毛重	
-        					"properties": [
+                            "lineNo": 1, // 原报关单序号
+                            "hsCode": "9102190000", // 商品编码
+                            "ciCode": "9102190000999", // 商检编码
+                            "name": "三条明细，单箱（35CBM）", // 商品名称
+                            "spec": "3|0|锌合金表壳|电子驱动|指针|ALDO牌|无型号", // 商品要素
+                            "salesUnit": "008", // 成交单位（传中文）
+                            "salesUnitQty": 10, // 成交数量
+                            "unit1": "008", // 法1单位（传中文）
+                            "unit1Qty": 10, // 法1数量
+                            "unit2": null, // 法2单位（传中文）
+                            "unit2Qty": null, // 法2数量
+                            "unitPrice": 20, // 单价
+                            "totalPrice": 200, // 总价
+                            "netWeight": 1.3333, // 净重
+                            "currency": "USD", // 币种
+                            "control": null, // 监管条件（传中文）
+                            "levy": "1", //征免性质（传中文）
+                            "destinationCountry": "CHE", // 最终目的国（传中文）
+                            "originCountry": "CHN", // 原厂国（传中文）
+                            "origin": "深圳特区", // 境内货源地（传中文）
+                            "sourceCode": "440306", // 产地代码
+                            "goodsNumber": "PLA20040001-1-1", // 料件号
+                            "cartonSpec": 10, // 箱数
+                            "grossWeight": 10.3332, // 毛重	
+                            "properties": [
                                 {
                                     "key": "grossWeight", // 毛重
                                     "value": 1.8333
@@ -100,31 +100,31 @@ Authorization: Access_Key XXXXXXXX
                             ]
                         },
                         {
-        					"lineNo": 2, // 原报关单序号
-        					"hsCode": "9102190000", // 商品编码
-        					"ciCode": "9102190000999", // 商检编码
-        					"name": "三条明细，单箱（35CBM）", // 商品名称
-        					"spec": "3|0|锌合金表壳|电子驱动|指针|ALDO牌|无型号", // 商品要素
-        					"salesUnit": "008", // 成交单位
-        					"salesUnitQty": 10, // 成交数量
-        					"unit1": "008", // 法1单位
-        					"unit1Qty": 10, // 法1数量
-        					"unit2": null, // 法2单位
-        					"unit2Qty": null, // 法2数量
-        					"unitPrice": 20, // 单价
-        					"totalPrice": 200, // 总价
-        					"netWeight": 1.3333, // 净重
-        					"currency": "USD", // 币种
-        					"control": null, // 监管条件
-        					"levy": "1",
-        					"destinationCountry": "CHE", // 最终目的国
-        					"originCountry": "CHN", // 原厂国
-        					"origin": null, // 境内货源地
-        					"sourceCode": "440306", // 产地代码
-        					"goodsNumber": null, // 料件号
-                            			"cartonSpec": 10, // 箱数
-        					"grossWeight" : 10.3332, // 	
-        					"properties": [
+                            "lineNo": 2, // 原报关单序号
+                            "hsCode": "9102190000", // 商品编码
+                            "ciCode": "9102190000999", // 商检编码
+                            "name": "三条明细，单箱（35CBM）", // 商品名称
+                            "spec": "3|0|锌合金表壳|电子驱动|指针|ALDO牌|无型号", // 商品要素
+                            "salesUnit": "008", // 成交单位
+                            "salesUnitQty": 10, // 成交数量
+                            "unit1": "008", // 法1单位
+                            "unit1Qty": 10, // 法1数量
+                            "unit2": null, // 法2单位
+                            "unit2Qty": null, // 法2数量
+                            "unitPrice": 20, // 单价
+                            "totalPrice": 200, // 总价
+                            "netWeight": 1.3333, // 净重
+                            "currency": "USD", // 币种
+                            "control": null, // 监管条件
+                            "levy": "1",
+                            "destinationCountry": "CHE", // 最终目的国
+                            "originCountry": "CHN", // 原厂国
+                            "origin": null, // 境内货源地
+                            "sourceCode": "440306", // 产地代码
+                            "goodsNumber": null, // 料件号
+                            "cartonSpec": 10, // 箱数
+                            "grossWeight": 10.3332, // 	
+                            "properties": [
                                 {
                                     "key": "grossWeight", // 毛重
                                     "value": 1.8333
@@ -146,7 +146,7 @@ Authorization: Access_Key XXXXXXXX
                                     "value": 25537146
                                 }
                             ]
-                        },
+                        }
                     ]
                 }
             ]
