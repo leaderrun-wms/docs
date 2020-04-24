@@ -155,7 +155,7 @@ Authorization: Access_Key XXXXXXXX
             "inboundBatchNo": "入库单号2",
             "items": [ // 入库单所有请单行
             ]
-        }
+        },
         {
             "inboundBatchNo": "入库单号3",
             "items": [ // 入库单所有请单行
