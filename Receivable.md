@@ -42,7 +42,8 @@
   "busicode":"busicode",
   "workCode": "工单号",
   "status":"1/2/3/4",
-  "customerCode": "客户编号" ,  
+  "customerCode": "客户编号" ,
+  "warehouseCode": "仓库编号",
   "billingDetail": [{
 			"id": "费用ID",
 			"type":"费用项",
