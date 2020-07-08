@@ -131,7 +131,6 @@
 	],
 	"customsDeclaration": [{//报关单
 	      "code":"报关单ID",
-	      "asnNo":"ASN单号",
 	      "type":"清关||转关",
 	      "taxBack":"是否退税",
 	      "transportMode": "运输方式", //需传编码
