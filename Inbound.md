@@ -137,13 +137,13 @@
 	      "transportMode": "运输方式", //需传编码
 	      "customsDeclarationDetail": [{
 	          "id":"报关单行号",
-		  "lines":"行数",
+		  "lines":"行号",
 		  "name":"品名",
 		  "hscode" : "海关编码"
 	      },
 	      {
 	          "id":"报关单行号",
-		  "lines":"行数",
+		  "lines":"行号",
 		   "name":"品名",
 		  "hscode" : "海关编码"		   
 	      }
