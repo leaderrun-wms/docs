@@ -35,7 +35,7 @@
 | 14   | [订单放行接口](OrderRelease.md)          | FD     | OWB    | ok   |      |                                                                                                                                           |
 | 15   | [出库订单确认申报接口](ConfirmDeclaration.md) | OWB    | FD     |      |      | 运抵确认出库报关单可申报                                                                                                                  |
 | 16   | [修改出库关务接口](UpdateOutbound.md)         | OWB    | FD     |      |      | 主动推送查询给CMS，CMS实时反馈结果；订单审核发送时，如果反馈结果不成功，WMS可以往下执行；发运之前再次请求，如果反馈结果为不成功，不能发运 |
-| 17   | [货物已出仓](OutboundConfirmation.md)         | OWB    | FD     |      |      | FIXME 货已离开仓库                                                                                                                        |
+| 17   | [出库确认（货物内容已经确认不会变动：锁封）](OutboundConfirmation.md)         | OWB    | FD     |      |      | 调用此接口表示货物内容不会再改变  |
 | 18   | [出仓检查验证](OutboundCheck.md)              | OWB    | FD     | OK   |      |                                                  
 | 19   | [车型查询接口](Vehicletype.md)                   | FD    | OWB    | OK   |      |                                                   
 | 20   | [异常中心接口](Issue.md)                   | OWB/FD    | ISSUE    |     |      | 异常订单生效，主动推送给 CMS ([有关异常数据分析](IssueAnalysis.md))                                             
