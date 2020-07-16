@@ -48,6 +48,7 @@
 | 27   | [预约时间扣减接口](DeductReservation.md) | FD | OWB |  | | 保税仓库/监管仓库，工单校验通过通知OWB扣减预约时间的CBM|
 | 28   | [公路舱单接口](Glcd.md) | OWB |  FD |  | | 下载公路舱单文件|
 | 29   | [按入库单查询关务库存数据](InboundDecQuery.md) | OWB |  FD |  | | 提供查询关务库存数据的能力 |
+| 30   | [货物延期申请](PeriodExtension.md) | OWB |  FD |  | | 货物延期申请 |
 
 # 环境
 
