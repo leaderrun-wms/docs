@@ -21,7 +21,7 @@
     "customerCode": "KN-ACCO",
     "storageDate": "2020-06-05",
     "soCode": "4363-9188-001.123",
-    "unit": PLT,
+    "unit": "PLT",
     "packageQty": "5",
     "inboundType": "PDA"
 }
