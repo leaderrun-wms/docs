@@ -27,7 +27,10 @@ Authorization: Access_Key XXXXXXXX
 
 ```json
 {
-    "processId": "启动出仓流程返回的ID"
+    "processId": "启动出仓流程返回的ID",
+    "properties": [  // 确认时的额外属性，可为空
+        {"key": "KNJobNo", "value": "somevalue"}
+    ]
 }
 ```
 
