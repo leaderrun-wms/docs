@@ -42,7 +42,6 @@
 	"reserve1": "预约时间ID",
 	"reserve2": "是否月结",
 	"satelliteWSign": "卫星仓标识",
-	"satelliteWArea": "卫星仓区域",
 	"carDetail":[{
 			"license_plate_no":"车牌号",
 			"truck_type":"车型",
@@ -85,8 +84,9 @@
 			"declarationLineNo":"报关单行号",
 			"declarationItemName":"品名",
 			"hscode":"商品编码",
+                        "satelliteWArea": "卫星仓区域",
 			"extend1": "shipper name",
-			"extend2": "edi_customerid,edi_fileowner,edi_shi",
+			"extend2": "edi_customerid,edi_fileowner,edi_shi,edi_wxc_indate,edi_wxc_outdate",
 			"extend3": "",
 			"extend4": "",
 			"extend5": ""
@@ -122,8 +122,9 @@
 			"declarationLineNo":"报关单行号",
 			"declarationItemName":"品名",
 			"hscode":"商品编码",
+                        "satelliteWArea": "卫星仓区域",
 			"extend1": "shipper name",
-			"extend2": "edi_customerid,edi_fileowner,edi_shi",
+			"extend2": "edi_customerid,edi_fileowner,edi_shi,edi_wxc_indate,edi_wxc_outdate",
 			"extend3": "",
 			"extend4": "",
 			"extend5": ""
