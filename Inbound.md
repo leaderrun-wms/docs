@@ -28,7 +28,7 @@
 	"warehouseCode": "仓库编号",	
 	"workCode": "工单号",
 	"orderType": "单据类型", //需传编码
-	"customerCode": "订单客户编号",
+	"customerCode": "订单客户编号-wms父客编码",
 	"paymentCode": "收货方编号",
 	"settlementCode": "付款方编号",
 	"consignorConsigneeCode": "Crm工厂",
