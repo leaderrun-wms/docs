@@ -50,9 +50,10 @@
 | 29   | [按入库单查询关务库存数据](InboundDecQuery.md) | OWB |  FD |  | | 提供查询关务库存数据的能力 |
 | 30   | [货物延期申请](PeriodExtension.md) | OWB |  FD |  | | 货物延期申请 |
 | 31   | [货物延期反馈接口](delayedOrderFeedback.md) | FD |  OWB |  | | 货物延期处理结果反馈 |
-| 32   | [出仓装卸 MQ消息接口](outboundsealed.md) | WMS |  FD | OK | | 发送客户EDI处理 |
-| 33   | [edi处理反馈接口](knediRetrun.md) | WMS |  FD | OK | | edi处理反馈接口 |
-| 34   | [订单类型定义](orderType.md) | WMS |  FD | OK | | 订单类型定义 |
+| 32   | [入仓卸货 MQ消息接口](inboundfinished.md) | WMS |  FD | OK | | 发送客户EDI处理 |
+| 33   | [出仓装卸 MQ消息接口](outboundsealed.md) | WMS |  FD | OK | | 发送客户EDI处理 |
+| 34   | [edi处理反馈接口](knediRetrun.md) | WMS |  FD | OK | | edi处理反馈接口 |
+| 35   | [订单类型定义](orderType.md) | WMS |  FD | OK | | 订单类型定义 |
 
 
 # 环境
