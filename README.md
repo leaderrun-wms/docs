@@ -51,7 +51,8 @@
 | 30   | [货物延期申请](PeriodExtension.md) | OWB |  FD |  | | 货物延期申请 |
 | 31   | [货物延期反馈接口](delayedOrderFeedback.md) | FD |  OWB |  | | 货物延期处理结果反馈 |
 | 32   | [出仓装卸 MQ消息接口](outboundsealed.md) | WMS |  FD | OK | | 发送客户EDI处理 |
-| 33   | [订单类型定义](orderType.md) | WMS |  FD | OK | | 订单类型定义 |
+| 33   | [edi处理反馈接口](knediRetrun.md) | WMS |  FD | OK | | edi处理反馈接口 |
+| 34   | [订单类型定义](orderType.md) | WMS |  FD | OK | | 订单类型定义 |
 
 
 # 环境
