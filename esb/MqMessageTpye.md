@@ -2,7 +2,7 @@
 
 | 消息类型          | 系统ID | 版本 | 产生说明                     | 内文格式 和 样本                         |
 |-------------------|--------|------|------------------------------|------------------------------------------|
-| so.received       | ASN    | 1    | 客户上传了SO档案             | [格式和样本](esb/so.received/readme.md)      |
+| so.received       | ASN    | 1    | 客户上传了SO档案             | [格式和样本](esb/asn.approved/readme.md)      |
 | asn.approved      | ASN    | 1    | ASN已审核通过                | [格式和样本](esb/asn.approved/readme.md)     |
 | asn.arrived       | FD     | 1    | ASN已到达仓库(交单)          | [格式和样本](esb/asn.arrived/readme.md)      |
 | customs.declared  | FD     | 1    | 海关已申报                   | [格式和样本](esb/customs.declared/readme.md) |
