@@ -8,9 +8,9 @@
 | customs.declared  | FD     | 1    | 海关已申报                   | [格式和样本](customs.declared/readme.md) |
 | customs.released  | FD     | 1    | 海关已放行                   | [格式和样本](customs.released/readme.md) |
 | inbound.started   | WMS    | 1    | 开始卸货                     |                                          |
-| inbound.finished  | WMS    | 1    | 入仓卸货                     | [格式和样本](inbound.finished.md)  |
+| inbound.finished  | WMS    | 1    | 入仓卸货                     | [格式和样本](inbound.finished/readme.md)  |
 | outbound.received | WMS    | 1    | 收到出库指令                 |                                          |
 | outbound.started  | WMS    | 1    | 出库指令开始处理（开始装柜） |                                          |
-| outbound.sealed   | WMS    | 1    | 出仓装柜                    | [格式和样本](outbound.sealed.md)  |
+| outbound.sealed   | WMS    | 1    | 出仓装柜                    | [格式和样本](outbound.sealed/readme.md)  |
 | customs.declared  | FD     | 1    | 海关已申报（和入库一致）     | [格式和样本](customs.declared/readme.md) |
 | customs.released  | FD     | 1    | 海关已放行（和入库一致）     | [格式和样本](customs.released/readme.md) |
