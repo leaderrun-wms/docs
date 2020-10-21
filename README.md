@@ -50,10 +50,10 @@
 | 29   | [按入库单查询关务库存数据](InboundDecQuery.md) | OWB |  FD |  | | 提供查询关务库存数据的能力 |
 | 30   | [货物延期申请](PeriodExtension.md) | OWB |  FD |  | | 货物延期申请 |
 | 31   | [货物延期反馈接口](delayedOrderFeedback.md) | FD |  OWB |  | | 货物延期处理结果反馈 |
-| 32   | [MQ入仓卸货 MQ消息接口](inboundfinished.md) | WMS |  FD | OK | | 发送客户EDI处理 |
-| 33   | [MQ出仓装卸 MQ消息接口](outboundsealed.md) | WMS |  FD | OK | | 发送客户EDI处理 |
-| 34   | [MQedi处理反馈接口](knediRetrun.md) | WMS |  FD | OK | | edi处理反馈接口 |
-| 35   | [MQ消息格式注册表消息格式注册表](MqMessageTpye.md) | WMS |  FD | OK | | MQ消息类型定义 |
+| 32   | [MQ入仓卸货 MQ消息接口](esb/inbound.finished/readme.md) | WMS |  FD | OK | | 发送客户EDI处理 |
+| 33   | [MQ出仓装卸 MQ消息接口](esb/outbound.sealed/readme.md) | WMS |  FD | OK | | 发送客户EDI处理 |
+| 34   | [MQedi处理反馈接口](esb/knediRetrun/readme.md) | WMS |  FD | OK | | edi处理反馈接口 |
+| 35   | [MQ消息格式注册表消息格式注册表](esb/MqMessageTpye.md) | WMS |  FD | OK | | MQ消息类型定义 |
 | 36   | [订单类型定义](orderType.md) | WMS |  FD | OK | | 订单类型定义 |
 
 
