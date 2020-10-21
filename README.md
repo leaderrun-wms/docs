@@ -53,7 +53,7 @@
 | 32   | [MQ入仓卸货 MQ消息接口](inboundfinished.md) | WMS |  FD | OK | | 发送客户EDI处理 |
 | 33   | [MQ出仓装卸 MQ消息接口](outboundsealed.md) | WMS |  FD | OK | | 发送客户EDI处理 |
 | 34   | [MQedi处理反馈接口](knediRetrun.md) | WMS |  FD | OK | | edi处理反馈接口 |
-| 35   | [MQ消息格式注册表消息格式注册表](README.md) | WMS |  FD | OK | | 订单类型定义 |
+| 35   | [MQ消息格式注册表消息格式注册表](MQ message tpye) | WMS |  FD | OK | | 订单类型定义 |
 | 36   | [订单类型定义](orderType.md) | WMS |  FD | OK | | 订单类型定义 |
 
 
