@@ -48,7 +48,7 @@ Authorization: Access_Key XXXXXXXX
             "inboundBatchNo": "入库单号1",
             "items": [ // 入库单所有请单行
                 {
-                    "id": "line-id-001",
+                    "id": "line-id-001",//清单ID
                     "qty": "10.0", //PCS数
                     "decItems": [ // 表示商品 line-id-001 关联了 2 行关务行
                         {
@@ -57,11 +57,11 @@ Authorization: Access_Key XXXXXXXX
                             "ciCode": "9102190000999", // 商检编码
                             "name": "三条明细，单箱（35CBM）", // 商品名称
                             "spec": "3|0|锌合金表壳|电子驱动|指针|ALDO牌|无型号", // 商品要素
-                            "salesUnit": "008", // 成交单位（传中文）
+                            "salesUnit": "008", // 成交单位（传代码）
                             "salesUnitQty": 10, // 成交数量
-                            "unit1": "008", // 法1单位（传中文）
+                            "unit1": "008", // 法1单位（传代码）
                             "unit1Qty": 10, // 法1数量
-                            "unit2": null, // 法2单位（传中文）
+                            "unit2": null, // 法2单位（传代码）
                             "unit2Qty": null, // 法2数量
                             "unitPrice": 20, // 单价
                             "totalPrice": 200, // 总价
@@ -69,9 +69,9 @@ Authorization: Access_Key XXXXXXXX
                             "currency": "USD", // 币种
                             "control": null, // 监管条件（传中文）
                             "levy": "1", //征免性质（传中文）
-                            "destinationCountry": "CHE", // 最终目的国（传中文）
-                            "originCountry": "CHN", // 原厂国（传中文）
-                            "origin": "深圳特区", // 境内货源地（传中文）
+                            "destinationCountry": "CHE", // 最终目的国（传代码）
+                            "originCountry": "CHN", // 原厂国（传代码）
+                            "origin": "深圳特区", // 境内货源地（传代码）
                             "sourceCode": "440306", // 产地代码
                             "goodsNumber": "PLA20040001-1-1", // 料件号
                             "cartonSpec": 10, // 箱数
