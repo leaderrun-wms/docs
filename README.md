@@ -55,6 +55,7 @@
 | 34   | [MQedi处理反馈接口](esb/knediRetrun/readme.md) | WMS |  FD | OK | | edi处理反馈接口 |
 | 35   | [MQ消息格式注册表消息格式注册表](esb/MqMessageTpye.md) | WMS |  FD | OK | | MQ消息类型定义 |
 | 36   | [订单类型定义](orderType.md) | WMS |  FD | OK | | 订单类型定义 |
+| 36   | [入库单查询关务库存数据](InboundDecQuery.md) | WMS |  FD | OK | | 海关对接用途 |
 
 
 
