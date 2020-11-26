@@ -71,7 +71,7 @@ Authorization: Access_Key XXXXXXXX
                             "levy": "1", //征免性质（传中文）
                             "destinationCountry": "CHE", // 最终目的国（传代码）
                             "originCountry": "CHN", // 原厂国（传代码）
-                            "origin": "深圳特区", // 境内货源地（传代码）
+                            "origin": "44031", // 境内货源地（传代码）深圳特区
                             "sourceCode": "440306", // 产地代码
                             "goodsNumber": "PLA20040001-1-1", // 料件号
                             "cartonSpec": 10, // 箱数
@@ -118,7 +118,7 @@ Authorization: Access_Key XXXXXXXX
                             "control": null, // 监管条件
                             "levy": "1",
                             "destinationCountry": "CHE", // 最终目的国
-                            "originCountry": "CHN", // 原厂国
+                            "originCountry": "CHN", // 原产国
                             "origin": null, // 境内货源地
                             "sourceCode": "440306", // 产地代码
                             "goodsNumber": null, // 料件号
