@@ -55,18 +55,6 @@
 | 34   | [MQedi处理反馈接口](esb/knediRetrun/readme.md) | WMS |  FD | OK | | edi处理反馈接口 |
 | 35   | [MQ消息格式注册表消息格式注册表](esb/MqMessageTpye.md) | WMS |  FD | OK | | MQ消息类型定义 |
 | 36   | [订单类型定义](orderType.md) | WMS |  FD | OK | | 订单类型定义 |
-| 36   | [入库单查询关务库存数据](InboundDecQuery.md) | WMS |  FD | OK | | 海关对接用途 |
+| 37   | [入库单查询关务库存数据](InboundDecQuery.md) | WMS |  FD | OK | | 海关对接用途 |
+| 38   | [接口地址表](Settings.md) | WMS |  FD | OK | | oms与WMS系统对接地址 |
 
-
-
-
-# 环境
-
-## 开发环境
-
-* OWB: TODO
-* FD: lhfdbe-test.yunbaoguan.cn:81
-* ASN: lhomsbe-test.yunbaoguan.cn:81
-* ISSUE: lhissuebe-test.yunbaoguan.cn
-* 
-## 生产环境
