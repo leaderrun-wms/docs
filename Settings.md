@@ -1,4 +1,4 @@
-# 计划正式访问地址
+# 正式访问地址
 
 | 服务         | 内网地址                        | 外网地址                         |
 |-------------|--------------------------------|---------------------------------|
@@ -9,13 +9,10 @@
 | ITS后台     | http://lhissuebei.yunbaoguan.cn | https://lhissuebe.yunbaoguan.cn |
 | ITS前台     | N/A                             | https://lhissue.yunbaoguan.cn   |
 
-
 唯智WMS-生产环境
 | WMS后台     | http://192.168.0.195:8090       | http://120.78.236.103:8090      |
 | WMS前台     | N/A                             | http://wms.leaderrun.com        |
-唯智WMS-测试环境
-| WMS后台     | N/A                             | http://14.29.237.141:8090       |
-| WMS前台     | N/A                             | N/A                             |
+
 
 ## 具体DNS配置：
 
@@ -34,10 +31,10 @@
 * wms                   192.168.0.195 (内网)
 
 
-# 访问地址
+# 测试环境访问地址
 
 * OMS: http://omsbe.lh.yunbaoguan.cn:81
 * FD: http://fdbe.lh.yunbaoguan.cn:81/
 * ISSUE: http://issuebe.lh.yunbaoguan.cn:81/
-* WMS： 内网（http://192.168.0.195:8091）   外网（http://wms.leaderrun.com:8091）
+* WMS： 内网（N/A）   外网（http://14.29.237.141:8091）
 
