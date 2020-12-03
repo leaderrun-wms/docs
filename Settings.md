@@ -8,8 +8,14 @@
 | FD前台      | N/A                             | https://lhfd.yunbaoguan.cn      |
 | ITS后台     | http://lhissuebei.yunbaoguan.cn | https://lhissuebe.yunbaoguan.cn |
 | ITS前台     | N/A                             | https://lhissue.yunbaoguan.cn   |
-| OWB后台     | http://10.10.0.2:8090          | http://14.29.237.141:8090       |
-| OWB前台     | N/A                             | http://wms.leaderrun.com        |
+
+
+唯智WMS-生产环境
+| WMS后台     | http://192.168.0.195:8090       | http://120.78.236.103:8090      |
+| WMS前台     | N/A                             | http://wms.leaderrun.com        |
+唯智WMS-测试环境
+| WMS后台     | N/A                             | http://14.29.237.141:8090       |
+| WMS前台     | N/A                             | N/A                             |
 
 ## 具体DNS配置：
 
@@ -21,18 +27,17 @@
 * lhissuebe.yunbaoguan.cn   14.29.237.251 (外网)
 * lhissue.yunbaoguan.cn     14.29.237.251 (外网)
 
-* oms.leaderrun.com     14.29.237.251 (外网)
+* oms.leaderrun.com     120.78.236.103 (外网)
 
-* wms.leaderrun.com     14.29.237.141(外网)
+* wms.leaderrun.com     120.78.236.103(外网)
 
-* wms                   14.29.237.141（外网）
-* wms                   10.10.0.2 (内网)
+* wms                   192.168.0.195 (内网)
 
 
-# 计划测试访问地址
+# 访问地址
 
 * OMS: http://omsbe.lh.yunbaoguan.cn:81
 * FD: http://fdbe.lh.yunbaoguan.cn:81/
 * ISSUE: http://issuebe.lh.yunbaoguan.cn:81/
-* OWB后台： 内网（http://10.10.0.2:8091）   外网（http://14.29.237.141:8091）
-* OWB前台： 外网（http://14.29.237.141:8088/leaderrun/reIndex.html）
+* WMS： 内网（http://192.168.0.195:8091）   外网（http://wms.leaderrun.com:8091）
+
