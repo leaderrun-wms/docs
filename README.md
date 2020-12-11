@@ -57,4 +57,6 @@
 | 36   | [订单类型定义](orderType.md) | WMS |  FD | OK | | 订单类型定义 |
 | 37   | [入库单查询关务库存数据](InboundDecQuery.md) | WMS |  FD | OK | | 海关对接用途 |
 | 38   | [接口地址表](Settings.md) | WMS |  FD | OK | | oms与WMS系统对接地址 |
+| 39   | [货代SO管理数据接口](货代SO管理数据接口.md) | OMS | |  | | 客户EDI数据与OMS数据对接 |
+
 
