@@ -59,9 +59,6 @@
 * id: 立航内部Booking ID
 
 ## 发送样例
-### postman
-![avatar](https://git.yunbaoguan.cn/management/leaderrun/uploads/177fd5d438c92c96ba230cd8e600ef67/ediBokingImport1.png)
-![avatar](https://git.yunbaoguan.cn/management/leaderrun/uploads/1f6883882ae0ba5cdbc118eb226d719a/ediBokingImport2.png)
 
 ### curl
 ```sh
