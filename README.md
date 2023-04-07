@@ -55,8 +55,10 @@
 | 34   | [MQedi处理反馈接口](esb/knediRetrun/readme.md) | WMS |  FD | OK | | edi处理反馈接口 |
 | 35   | [MQ消息格式注册表消息格式注册表](esb/MqMessageTpye.md) | WMS |  FD | OK | | MQ消息类型定义 |
 | 36   | [订单类型定义](orderType.md) | WMS |  FD | OK | | 订单类型定义 |
-| 37   | [入库单查询关务库存数据](InboundDecQuery.md) | WMS |  FD | OK | | 海关对接用途 |
+| 37   | [入库单查询关务入仓数据](InboundDecQuery.md) | WMS |  FD | OK | | 海关对接用途 |
 | 38   | [接口地址表](Settings.md) | WMS |  FD | OK | | oms与WMS系统对接地址 |
 | 39   | [货代SO管理数据接口](货代SO管理数据接口.md) |Leaderrun ESB| OMS | OK | | 客户EDI数据与OMS数据对接 |
+| 40   | [按清单ID查询关务库存数据](inventory-dec.md) |Leaderrun ESB| OMS | OK | | 海关对接查询关务库存 |
+
 
 
