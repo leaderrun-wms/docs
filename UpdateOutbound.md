@@ -196,28 +196,30 @@ Authorization: Access_Key XXXXXXXX
 					"mfLineId": "414e5d8f-813b-4bae-a4b0-ed7673fc8657", // 清单ID
 					"decId": "2ec076f1-3029-4aab-a8a5-d4c0aacf135c", // 报关单Id
 					"decLineNo": 1, // 报关单序号
-					"hsCode": "9102190000", // 商品编码
-					"ciCode": "9102190000999", // 商检编码
-					"name": "三条明细，单箱（35CBM）", // 商品名称
-					"spec": "3|0|锌合金表壳|电子驱动|指针|ALDO牌|无型号", // 商品要素
-					"salesUnit": "008", // 成交单位
-					"salesUnitQty": 10, // 成交数量
-					"unit1": "008", // 法1单位
-					"unit1Qty": 10, // 法1数量
-					"unit2": null, // 法2单位
-					"unit2Qty": null, // 法2数量
-					"unitPrice": 20, // 单价
-					"totalPrice": 200, // 总价
-					"netWeight": 1.3333, // 净重
-					"currency": "USD", // 币种
-					"control": null, // 监管条件
-					"levy": "1",
-					"destinationCountry": "CHE", // 最终目的国
-					"originCountry": "CHN", // 原厂国
-					"origin": null, // 境内货源地
-					"sourceCode": "440306", // 产地代码
-					"goodsNumber": null, // 料件号
-					"properties": [
+					"hsCode": "9102190000", // 商品编码（新增）
+					"ciCode": "9102190000999", // 商检编码（新增）
+					"name": "三条明细，单箱（35CBM）", // 商品名称（新增）
+					"spec": "3|0|锌合金表壳|电子驱动|指针|ALDO牌|无型号", // 商品要素（新增）
+					"salesUnit": "008", // 成交单位（新增）
+					"salesUnitQty": 10, // 成交数量（新增）
+					"unit1": "008", // 法1单位（新增）（新增）（新增）
+					"unit1Qty": 10, // 法1数量（新增）（新增）
+					"unit2": null, // 法2单位（新增）
+					"unit2Qty": null, // 法2数量（新增）（新增）
+					"unitPrice": 20, // 单价（新增）
+					"totalPrice": 200, // 总价（新增）
+					"netWeight": 1.3333, // 净重（新增）
+					"currency": "USD", // 币种（新增）
+					"control": null, // 监管条件（新增）
+					"levy": "1",// （新增）
+					"destinationCountry": "CHE", // 最终目的国（新增）
+					"originCountry": "CHN", // 原厂国（新增）
+					"origin": null, // 境内货源地（新增）
+					"sourceCode": "440306", // 产地代码（新增）
+					"goodsNumber": null, // 料件号（新增）
+                                        "cartonSpec" ：10, // 箱数（新增）
+					"grossWeight" : 10.3332, //（新增）
+					"properties": [//（新增）
 									{
 										"key": "grossWeight", // 毛重
 										"value": 1.8333
