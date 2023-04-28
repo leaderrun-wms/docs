@@ -44,45 +44,45 @@ Authorization: Access_Key XXXXXXXX
     "message": null,
     "result": [
         {
-            "inboundBatchNo": "IPLA230404441",
-            "items": [
+            "inboundBatchNo": "IPLA230404441",//入库单号
+            "items": [// 入库单所有请单行
                 {
-                    "id": "bc8a512d4c7f417f84b43be04deada3b",
-                    "qty": 20,
+                    "id": "bc8a512d4c7f417f84b43be04deada3b",//清单ID
+                    "qty": 20,//PCS数
                     "decItems": [
                         {
-                            "lineNo": 1,
-                            "hsCode": "8413709990",
-                            "ciCode": "",
-                            "name": "永磁同步泵",
-                            "spec": "1|0|电动驱动|离心式|3600r/min|洗碗机用|FUDI牌|TP-66-25-2-14型",
-                            "salesUnit": "001",
-                            "salesUnitQty": 20.0,
-                            "unit1": "001",
-                            "unit1Qty": 20.0,
-                            "unit2": "035",
-                            "unit2Qty": 9.2,
-                            "unitPrice": 6.86,
-                            "totalPrice": 137.2,
-                            "netWeight": 9.2,
-                            "currency": "USD",
-                            "control": null,
-                            "levy": "1",
-                            "destinationCountry": "ITA",
-                            "originCountry": "142",
-                            "origin": null,
-                            "sourceCode": null,
-                            "goodsNumber": "IPLA230404441-1-1",
-                            "cartonSpec": "1",
-                            "grossWeight": 9.9,
+                            "lineNo": 1,// 原报关单序号
+                            "hsCode": "8413709990",// 商品编码
+                            "ciCode": "",// 商检编码
+                            "name": "永磁同步泵",// 商品名称
+                            "spec": "1|0|电动驱动|离心式|3600r/min|洗碗机用|FUDI牌|TP-66-25-2-14型",// 商品要素
+                            "salesUnit": "001",// 成交单位（传代码）
+                            "salesUnitQty": 20.0,// 成交数量
+                            "unit1": "001",// 法1单位（传代码）
+                            "unit1Qty": 20.0,// 法1数量
+                            "unit2": "035",// 法2单位（传代码）
+                            "unit2Qty": 9.2,// 法2数量
+                            "unitPrice": 6.86,// 单价
+                            "totalPrice": 137.2,// 总价
+                            "netWeight": 9.2,// 净重
+                            "currency": "USD",// 币种
+                            "control": null,// 监管条件（传中文）
+                            "levy": "1",//征免性质（传中文）
+                            "destinationCountry": "ITA",// 最终目的国（传代码）
+                            "originCountry": "142",// 原厂国（传代码）
+                            "origin": null,// 境内货源地（传代码）深圳特区
+                            "sourceCode": null,// 产地代码
+                            "goodsNumber": "IPLA230404441-1-1",// 料件号
+                            "cartonSpec": "1",// 箱数
+                            "grossWeight": 9.9, // 毛重	
                             "properties": [
                                 {
                                     "key": "inboundCustomsLedgerId",
-                                    "value": "QD535223I000265641"
+                                    "value": "QD535223I000265641"// 核注清单号
                                 },
                                 {
                                     "key": "inboundCustomsLedgerNo",
-                                    "value": 1067405
+                                    "value": 1067405// 核注清单序号
                                 }
                             ]
                         }
