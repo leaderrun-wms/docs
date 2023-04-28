@@ -58,7 +58,8 @@
 | 37   | [入库单查询关务入仓数据](InboundDecQuery.md) | WMS |  FD | OK | | 海关对接用途 |
 | 38   | [接口地址表](Settings.md) | WMS |  FD | OK | | oms与WMS系统对接地址 |
 | 39   | [货代SO管理数据接口](货代SO管理数据接口.md) |Leaderrun ESB| OMS | OK | | 客户EDI数据与OMS数据对接 |
-| 40   | [按清单ID查询关务库存数据](inventory-dec.md) |Leaderrun ESB| OMS | OK | | 海关对接查询关务库存 |
+| 40   | [按入库单查询关务入库数据](inbound-dec/origin.md) |Leaderrun ESB| OMS | OK | | 海关对接查询入库数据 |
+| 41   | [按清单行查询关务库存数据](inbound-dec/manifest-dec.md) |Leaderrun ESB| OMS | OK | | 海关对接查询库存数据 |
 
 
 
