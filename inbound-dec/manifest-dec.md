@@ -29,7 +29,7 @@ Authorization: Access_Key XXXXXXXX
 
 ```json
 {
-    "inboundBatchNos": [
+    "inboundManifestIds": [
         "bc8a512d4c7f417f84b43be04deada3b", // 批量查询多个清单行
         "e3c22ce5ab274174a6c9296b2ac02f86",
         "552ddc84-9eba-4872-92b7-14ee02368641"
