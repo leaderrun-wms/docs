@@ -72,6 +72,10 @@ Authorization: Access_Key XXXXXXXX
         {
             "key": "childrenCustomerName", // 子客
             "value": "KN-SEX"
+        },
+        {
+            "key": "JOB_NO", // JOB_NO
+            "value": "Shayne Zhang-C02290535"
         },	
         {
             "key": "CONTAINERS",//柜信息
