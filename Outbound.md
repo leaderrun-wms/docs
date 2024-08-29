@@ -84,13 +84,17 @@ Authorization: Access_Key XXXXXXXX
                 "seq": "1",
                 "type": "HQ|GP",
                 "spec": "20|40|45|53",
-                "number": "柜号1"
+                "number": "柜号1",
+                "seal": "封条号1",
+                "car": "车牌号1"
             },
             {
                 "seq": "2",
                 "type": "HQ|GP",
                 "spec": "20|40|45|53",
-                "number": "柜号2"
+                "number": "柜号2",
+                "seal": "封条号2",
+                "car": "车牌号2"
             }]
         }
     ],
