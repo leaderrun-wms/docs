@@ -45,4 +45,4 @@
 ```
 备注:
  * 查询客户为：荷瑞的可用库存
- * 可用库存数量按ItemCode，单位Unit,规格Spec作汇总
+ * 可用库存数量按ItemCode，单位Unit，规格Spec作汇总
