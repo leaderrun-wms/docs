@@ -4,7 +4,7 @@
 
 ## 接口概述
 
-  客人调用唯智API接口，唯智返回对应信息给到客人
+  客人调用WMSAPI接口，WMS返回对应信息给到客人
 
 ## 功能描述
 
@@ -16,7 +16,7 @@
   * 请求方法：POST
   * 请求头部：application/json
   * 头部Token:
-  
+  * 接口名称: HoRuiApi
 ## 参数说明
   
   Data：对外系统post给OWB系统的JSON格式报文 
@@ -35,10 +35,10 @@
     "result":{
         "decls": [{
 			    	"Itemcode": "3760287005903",//Item
-				    "ItemName": "棉座椅垫",//报关品名 dec_itemname
-				    "Unit": "箱",//单位：箱/板/PCS
-				    "Qty": 10,//可用库存数量
-				    "Spec": "74*40*28"//规格    
+				"ItemName": "棉座椅垫",//报关品名 dec_itemname
+				"Unit": "箱",//单位：箱/板/PCS
+				"Qty": 10,//可用库存数量
+				"Spec": "74*40*28"//规格    
         }]
     }
 }
