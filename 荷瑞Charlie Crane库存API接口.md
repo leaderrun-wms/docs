@@ -1,4 +1,4 @@
-# 荷瑞API接口
+# 荷瑞Charlie Crane库存API接口
 
 接口定义方：唯智
 
@@ -9,6 +9,7 @@
 ## 功能描述
 
   对外系统接口调用接口采用基于HTTPS调用方式,报文采用JSON格式
+  调用时返回对应客户的全量数据
   
 ## 接口地址  
   
@@ -16,7 +17,7 @@
   * 请求方法：POST
   * 请求头部：application/json
   * 头部Token:
-  * 接口名称: HoRuiApi
+  * 接口名称: Charlie_Crane_inventory
 ## 参数说明
   
   Data：对外系统post给OWB系统的JSON格式报文 
