@@ -13,8 +13,8 @@
   
 ## 接口地址  
   
-  * 测试地址： 
-  * 请求方法：POST
+  * 测试地址：https://xxx/Charlie_Crane_inventory 
+  * 请求方法：GET
   * 请求头部：application/json
   * 头部Token:
   * 接口名称: Charlie_Crane_inventory
@@ -31,26 +31,26 @@
 
 ```json
 {
-    "success": true,
-    "message": "若success为false时候的错误信息",
-    "result":{
-        "decls": [{
-			    	"Itemcode": "3760287005903",//Item
-				"ItemName": "棉座椅垫",//报关品名 dec_itemname
-				"Unit": "箱",//单位：箱/板/PCS
-				"Qty": 10,//可用库存数量
-				"Spec": "74*40*28"//规格    
-       		 },
-		{
-			    	"Itemcode": "3760287005902",//Item
-				"ItemName": "棉座椅垫",//报关品名 dec_itemname
-				"Unit": "板",//单位：箱/板/PCS
-				"Qty": 20,//可用库存数量
-				"Spec": "74*40*28"//规格 
-		}]
-    }
+    "total": 2,
+    "rows": [{
+		"item": "3760287005903",//Item
+		"name": "棉座椅垫",//报关品名 dec_itemname
+		"qty": 10,//可用库存数量
+		"unit": "箱",//单位：箱/板/PCS
+		"spec": "74*40*28"//规格    
+	     },
+	     {
+		"item": "3760287005902",//Item
+		"name": "棉座椅垫",//报关品名 dec_itemname
+		"qty": 10,//可用库存数量
+		"unit": "箱",//单位：箱/板/PCS
+		"spec": "74*40*29"//规格   
+	     }],
+    "code": 200,
+    "msg": ""//查询成功或失败的信息
+    
 }
 ```
 备注:
  * 查询客户为：荷瑞的可用库存
- * 可用库存数量按ItemCode，单位Unit，规格Spec作汇总
+ * 可用库存数量按item，单位unit，规格spec作汇总
