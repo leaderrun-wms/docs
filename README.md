@@ -61,6 +61,6 @@
 | 40   | [按入库单查询关务入库数据](inbound-dec/origin.md) |Leaderrun ESB| OMS | OK | | 海关对接查询入库数据 |
 | 41   | [按清单行查询关务库存数据](inbound-dec/manifest-dec.md) |Leaderrun ESB| OMS | OK | | 海关对接查询库存数据 |
 | 42   | [荷瑞API接口](CustomerApi.md) |Leaderrun ESB| WMS | OK | | 客户对接查询库存数据 |
-| 43   | [收货完成上传接口](receiv-upload.md) |Leaderrun ESB| WMS | OK | | WMS收货完成上传数据 |
+| 43   | [收货完成上传接口](receive-upload.md) |Leaderrun ESB| WMS | OK | | WMS收货完成上传数据 |
 
 
