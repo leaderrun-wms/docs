@@ -19,7 +19,7 @@
   
 ## 参数说明
   
-  Data：对外系统post给ASN系统的JSON格式报文 
+  Data：wms给ASN系统的JSON格式报文 
   
   内容：
    ```json
