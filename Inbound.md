@@ -165,6 +165,7 @@
 ```
 备注:
  * CMS创建工单时推送信息到OWB系统，状态为new
+ * CMS有异常改单时推送信息到OWB系统，状态为change
  * CMS修改工单时推送信息到OWB系统，状态为update
  * CMS删除工单时推送信息到OWB系统，状态为delete
  * CMS接单后（接单窗口完成接单）再次推送信息给OWB系统，状态为active，CMS接单后不允许对工单进行修改和删除操作
