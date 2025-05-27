@@ -27,6 +27,8 @@
   "workCode": "工单号",
   "customerCode": "客户编号",
   "status": "1/2/3/4/5",
+  "chargingmethod": "1/2/3/4",## 收费方式
+  "transferor": "转账人",
   "billingDetail": [{
 			"id": "费用ID",
 			"type":"费用项",
@@ -57,3 +59,4 @@
 
 备注：CMS现金缴费，只推送本次缴费的现金费用项目，原已缴费现金项目不再推送给WMS。
 接口增加状态（status）值：5，用于处理发票类型（主要是电子发票），每次申请电子发票成功后云报关将本次申请成功的所有明细推送给WMS系统，已推送的不再重复推送。
+接口增加收费方式(chargingmethod)和转账人(transferor)。
