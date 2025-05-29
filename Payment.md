@@ -27,7 +27,7 @@
   "workCode": "工单号",
   "customerCode": "客户编号",
   "status": "1/2/3/4/5/6",
-  "chargingmethod": "1/2/3/4",## 收费方式
+  "chargingmethod": "扫码支付/刷卡支付/现金支付/银行转账",## 收费方式
   "transferor": "转账人",
   "billingDetail": [{
 			"id": "费用ID",
@@ -35,15 +35,23 @@
 			"qty": "金额",
 			"reserve1": "收费人",
 			"reserve2": "收费时间，格式：yyyy-MM-dd hh:mm:ss",
-			"reserve3": "交易号"
+			"reserve3": "交易号",
+			"reserve4": "转账交易号",
+			"reserve5": "退款原因",
+			"reserve6": "备用字段",
+			"reserve7": "备用字段"
 		},
 		{
-			"id": "清单行唯一ID",
+			"id": "费用ID",
 			"type":"费用项",
 			"qty": "金额",
 			"reserve1": "收费人",
 			"reserve2": "收费时间，格式:yyyy-MM-dd hh:mm:ss",
-			"reserve3": "交易号"
+			"reserve3": "交易号",
+			"reserve4": "转账交易号",
+			"reserve5": "退款原因",
+			"reserve6": "备用字段",
+			"reserve7": "备用字段"
 		}]
 }
 ```
@@ -57,7 +65,6 @@
 }
 ```
 
-备注：CMS现金缴费，只推送本次缴费的现金费用项目，原已缴费现金项目不再推送给WMS。\n
-  *接口增加状态（status）值：5，用于处理发票类型（主要是电子发票），每次申请电子发票成功后云报关将本次申请成功的所有明细推送给WMS系统，已推送的不再重复推送。\n
-  *接口增加状态（status）值：6，用于处理退款业务。\n
-  *接口增加收费方式(chargingmethod)和转账人(transferor)。
+备注：CMS现金缴费，只推送本次缴费的现金费用项目，原已缴费现金项目不再推送给WMS。
+  *接口增加状态（status）值：5，用于处理发票类型（主要是电子发票），每次申请电子发票成功后云报关将本次申请成功的所有明细推送给WMS系统，已推送的不再重复推送。
+  *接口增加状态（status）值：6，用于处理退款业务。
