@@ -90,7 +90,10 @@
 			"extend2": "edi_customerid,edi_fileowner,edi_shi,edi_wxc_indate,edi_wxc_outdate",
 			"extend3": "",
 			"extend4": "",
-			"extend5": ""
+			"extend5": "",
+			"extend6": "",
+			"extend7": "",
+			"extend8": ""
 		},
 		{
 			"id": "清单行唯一ID",
@@ -128,7 +131,10 @@
 			"extend2": "edi_customerid,edi_fileowner,edi_shi,edi_wxc_indate,edi_wxc_outdate",
 			"extend3": "",
 			"extend4": "",
-			"extend5": ""
+			"extend5": "",
+			"extend6": "",
+			"extend7": "",
+			"extend8": ""
 		}
 	],
 	"customsDeclaration": [{//报关单
