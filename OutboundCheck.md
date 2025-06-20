@@ -68,6 +68,9 @@ Authorization: Access_Key XXXXXXXX
     "result": {
         "ciq": [
             "清单行唯一ID", "清单行唯一ID" // 需要商检的货物
+        ],
+        "sj": [
+            "清单行唯一ID", "清单行唯一ID" // 需要特殊商检的货物
         ]
     }
 }
