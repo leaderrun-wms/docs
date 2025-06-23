@@ -165,42 +165,14 @@ Authorization: Access_Key XXXXXXXX
 					"origin": null, // 境内货源地
 					"sourceCode": "440306", // 产地代码
 					"goodsNumber": null, // 料件号
-                    "cartonSpec"：10, // 箱数
+                    			"cartonSpec"：10, // 箱数
 					"grossWeight" : 10.3332,
-                    "sj": "是", //是否整出
-                    "asnNo": "ASN250600003", // ASN单号
-					"properties": [
-									{
-										"key": "grossWeight", // 毛重
-										"value": 10.3332
-									},
-									{
-										"key": "outboundcustomsLedgerId",
-										"value": null
-									},
-									{
-										"key": "outboundcustomsLedgerLineNo",
-										"value": 0
-									},
-									{
-										"key": "inboundDecId",
-										"value": "2d741e52431f4ae0ac6a6c13635614b6"
-									},
-									{
-										"key": "inboundDecItemNo",    //入仓项号
-										"value": 1
-									},
-									{
-										"key": "inboundCustomsLedgerId",     // 核增号
-										"value": "QDTIIK201908081603"
-									},
-									{
-										"key": "inboundCustomsLedgerNo",   //金关序号
-										"value": 25537145
-									}
-								]
-				}],
-				"decIdLineIdMappings": [{
+                   			 "sj": "是", //是否整出
+					 "asnNo": "ASN250600003", // ASN单号
+                    			 "inboundDecItemNo":1,
+		    			 "inboundCustomsLedgerId":"QDTIIK201908081603",
+		   			 "inboundCustomsLedgerNo":25537145,
+				  "decIdLineIdMappings": [{
 					"mfLineId": "414e5d8f-813b-4bae-a4b0-ed7673fc8657", // 清单ID
 					"decId": "2ec076f1-3029-4aab-a8a5-d4c0aacf135c", // 报关单Id
 					"decLineNo": 1 // 报关单序号
