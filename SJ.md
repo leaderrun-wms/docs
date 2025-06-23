@@ -169,9 +169,9 @@ Authorization: Access_Key XXXXXXXX
 					"grossWeight" : 10.3332,
                    			 "sj": "是", //是否整出
 					 "asnNo": "ASN250600003", // ASN单号
-                    			 "inboundDecItemNo":1,
-		    			 "inboundCustomsLedgerId":"QDTIIK201908081603",
-		   			 "inboundCustomsLedgerNo":25537145,
+                    			 "inboundDecItemNo":1,//入仓项号
+		    			 "inboundCustomsLedgerId":"QDTIIK201908081603",//入仓核增号
+		   			 "inboundCustomsLedgerNo":25537145,//入仓金关序号
 				  "decIdLineIdMappings": [{
 					"mfLineId": "414e5d8f-813b-4bae-a4b0-ed7673fc8657", // 清单ID
 					"decId": "2ec076f1-3029-4aab-a8a5-d4c0aacf135c", // 报关单Id
